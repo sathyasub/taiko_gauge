@@ -1,4 +1,5 @@
 
+
 /* globals gauge*/
 
 const assert = require('assert');
@@ -8,7 +9,7 @@ const {
     inputField, fileField, textField, image, button, comboBox, checkBox, radioButton, alert,
     prompt, confirm, beforeunload, text, click, doubleClick, rightClick, write, press,
     attach, highlight, focus, scrollTo, scrollRight, scrollLeft, scrollUp, scrollDown,
-    hover, screenshot, timeoutSecs, intervalSecs, waitForNavigation, to, into, dismiss, accept,intercept
+    hover, screenshot, timeoutSecs, intervalSecs, waitForNavigation, to, into, dismiss, accept,intercept,toRightOf
 } = require('taiko');
 
 beforeSuite (async()=>{
@@ -23,9 +24,10 @@ step("Search for the movie <movie>",async (movie)=>{
 });
 
 step("Enter the city name <city>",async (city)=>{
-   await click($("//input[@id='inp_RegionSearch_top']"));
-   await write(city);
-   await press("Enter");
+   //await click($("//input[@id='inp_RegionSearch_top']"));
+   await click("View All Cities")
+   await click(city);
+//   await press("Enter");
 });
 
 step("Select the date <date>",async (date)=>{
@@ -33,7 +35,15 @@ await click(date);
 });
 
 step("Select the theatre <theatre> and the time of the show <time>",async (theatre,time)=>{
-    await click(link(time),toRightOf(theatre))
+    var movieTime="//a[@data-showtime-code="+time+"]"
+    await click($(movieTime,toRightOf(theatre)));
+    await click("Accept");
+});
+
+step("Select the number of seats to be booked <seats>",async(seats)=>{
+var xpath = "//ul[@id='popQty']//li[text()="+seats+"]";
+await click($(xpath)); 
+await click ("Select Seats");
 });
 
 afterSuite(async () =>{

@@ -150,3 +150,342 @@ Error: Timed out
 11:08:32.261 
 Total time taken: 21.958s
 11:08:32.261 Updates are available. Run `gauge update -c` for more info.
+19-10-2019 11:52:57.180 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 11:52:57.181 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 11:52:57.927 [Gauge] [INFO] # Search Movie
+19-10-2019 11:52:57.934 [Gauge] [INFO] ## Scenario1
+19-10-2019 11:52:57.944 [Gauge] [DEBUG] * Enter the city name "chennai"
+19-10-2019 11:52:57.962 [Gauge] [CRITICAL] Connection to runner with Pid 34491 lost. The runner probably quit unexpectedly. Inspect logs for potential reasons. Error : read tcp 127.0.0.1:52842->127.0.0.1:52844: use of closed network connection
+19-10-2019 11:54:34.449 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 11:54:34.450 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 11:54:35.736 [Gauge] [DEBUG] Checking updates...
+19-10-2019 11:54:35.736 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:54:37.102 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:54:37.494 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:54:43.395 [Gauge] [INFO] # Search Movie
+19-10-2019 11:54:43.400 [Gauge] [INFO] ## Scenario1
+19-10-2019 11:54:43.411 [Gauge] [DEBUG] * Enter the city name "chennai"
+19-10-2019 11:54:47.549 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 11:54:48.390 [Gauge] [ERROR] Failed Step: Search for the movie "Asuran"
+19-10-2019 11:54:48.390 [Gauge] [ERROR] Error Message: Error: Custom selector $(//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']) is covered by other element
+19-10-2019 11:54:48.390 [Gauge] [ERROR] Specification: specs/searchMovie.spec:5
+19-10-2019 11:54:48.390 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']) is covered by other element
+    at _click (node_modules/taiko/lib/taiko.js:1009:11)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 11:54:49.088 [Gauge] [INFO] Closing connection [127.0.0.1:53287] cause: read tcp 127.0.0.1:53284->127.0.0.1:53287: read: connection reset by peer
+19-10-2019 11:54:49.182 [Gauge] [DEBUG] Plugin [Html Report] with pid [34653] has exited
+19-10-2019 11:54:49.282 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 11:54:49.282 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 11:54:49.282 [Gauge] [INFO] 
+Total time taken: 13.559s
+19-10-2019 11:55:16.760 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 11:55:16.761 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 11:55:18.359 [Gauge] [DEBUG] Checking updates...
+19-10-2019 11:55:18.360 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:55:19.943 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:55:20.339 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:55:26.763 [Gauge] [INFO] # Search Movie
+19-10-2019 11:55:26.770 [Gauge] [INFO] ## Scenario1
+19-10-2019 11:55:26.775 [Gauge] [DEBUG] * Enter the city name "chennai"
+19-10-2019 11:55:30.562 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 11:55:31.118 [Gauge] [ERROR] Failed Step: Search for the movie "Asuran"
+19-10-2019 11:55:31.118 [Gauge] [ERROR] Error Message: Error: Custom selector $(//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']) is covered by other element
+19-10-2019 11:55:31.118 [Gauge] [ERROR] Specification: specs/searchMovie.spec:5
+19-10-2019 11:55:31.118 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']) is covered by other element
+    at _click (node_modules/taiko/lib/taiko.js:1009:11)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 11:55:31.530 [Gauge] [INFO] Closing connection [127.0.0.1:53563] cause: EOF
+19-10-2019 11:55:31.612 [Gauge] [DEBUG] Plugin [Html Report] with pid [34776] has exited
+19-10-2019 11:55:31.717 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 11:55:31.717 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 11:55:31.717 [Gauge] [INFO] 
+Total time taken: 14.017s
+19-10-2019 11:57:18.730 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 11:57:18.732 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 11:57:20.003 [Gauge] [DEBUG] Checking updates...
+19-10-2019 11:57:20.004 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:57:21.285 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:57:21.664 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 11:57:30.272 [Gauge] [INFO] # Search Movie
+19-10-2019 11:57:30.283 [Gauge] [INFO] ## Scenario1
+19-10-2019 11:57:30.289 [Gauge] [DEBUG] * Enter the city name "chennai"
+19-10-2019 11:57:34.216 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 11:57:35.356 [Gauge] [ERROR] Failed Step: Search for the movie "Asuran"
+19-10-2019 11:57:35.356 [Gauge] [ERROR] Error Message: Error: Custom selector $(//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']) is covered by other element
+19-10-2019 11:57:35.356 [Gauge] [ERROR] Specification: specs/searchMovie.spec:5
+19-10-2019 11:57:35.356 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']) is covered by other element
+    at _click (node_modules/taiko/lib/taiko.js:1009:11)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 11:57:35.762 [Gauge] [INFO] Closing connection [127.0.0.1:54213] cause: EOF
+19-10-2019 11:57:35.841 [Gauge] [DEBUG] Plugin [Html Report] with pid [34932] has exited
+19-10-2019 11:57:35.944 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 11:57:35.944 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 11:57:35.944 [Gauge] [INFO] 
+Total time taken: 16.331s
+19-10-2019 12:02:14.253 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:02:14.254 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:02:15.548 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:02:15.549 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:02:16.808 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:02:17.302 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:02:22.001 [Gauge] [INFO] # Search Movie
+19-10-2019 12:02:22.007 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:02:22.011 [Gauge] [DEBUG] * Enter the city name "chennai"
+19-10-2019 12:02:25.871 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:02:26.370 [Gauge] [ERROR] Failed Step: Search for the movie "Asuran"
+19-10-2019 12:02:26.370 [Gauge] [ERROR] Error Message: Error: Custom selector $(//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']) is covered by other element
+19-10-2019 12:02:26.370 [Gauge] [ERROR] Specification: specs/searchMovie.spec:5
+19-10-2019 12:02:26.370 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']) is covered by other element
+    at _click (node_modules/taiko/lib/taiko.js:1009:11)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 12:02:26.910 [Gauge] [INFO] Closing connection [127.0.0.1:55554] cause: EOF
+19-10-2019 12:02:26.978 [Gauge] [DEBUG] Plugin [Html Report] with pid [55214] has exited
+19-10-2019 12:02:27.085 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:02:27.085 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:02:27.085 [Gauge] [INFO] 
+Total time taken: 11.93s
+19-10-2019 12:05:31.784 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:05:31.786 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:05:33.088 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:05:33.088 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:05:34.263 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:05:34.578 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:05:45.282 [Gauge] [INFO] # Search Movie
+19-10-2019 12:05:45.287 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:05:45.290 [Gauge] [DEBUG] * Enter the city name "chennai"
+19-10-2019 12:05:52.560 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:06:00.653 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:06:07.484 [Gauge] [DEBUG] * Select the theatre "AGS Cinemas OMR: Navlur" and the time of the show "12.30PM"
+
+19-10-2019 12:06:07.808 [Gauge] [ERROR] Failed Step: Select the theatre "AGS Cinemas OMR: Navlur" and the time of the show "12.30PM"
+19-10-2019 12:06:07.809 [Gauge] [ERROR] Error Message: {}
+19-10-2019 12:06:07.809 [Gauge] [ERROR] Specification: specs/searchMovie.spec:7
+19-10-2019 12:06:07.809 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: toRightOf is not defined
+    at Object.<anonymous> (tests/stepDefinition.js:38:17)
+19-10-2019 12:06:08.355 [Gauge] [INFO] Closing connection [127.0.0.1:56501] cause: EOF
+19-10-2019 12:06:08.431 [Gauge] [DEBUG] Plugin [Html Report] with pid [64657] has exited
+19-10-2019 12:06:08.536 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:06:08.536 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:06:08.536 [Gauge] [INFO] 
+Total time taken: 35.649s
+19-10-2019 12:06:32.774 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:06:32.774 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:06:34.270 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:06:34.320 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:06:35.667 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:06:35.984 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:06:41.484 [Gauge] [INFO] # Search Movie
+19-10-2019 12:06:41.489 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:06:41.494 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:06:49.330 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:06:57.200 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:07:03.093 [Gauge] [DEBUG] * Select the theatre "AGS Cinemas OMR: Navlur" and the time of the show "12.30PM"
+
+19-10-2019 12:07:13.532 [Gauge] [CRITICAL] Connection to runner with Pid 64734 lost. The runner probably quit unexpectedly. Inspect logs for potential reasons. Error : read tcp 127.0.0.1:56853->127.0.0.1:56860: use of closed network connection
+19-10-2019 12:07:47.231 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:07:47.232 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:07:48.488 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:07:48.489 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:07:50.081 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:07:50.450 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:07:53.430 [Gauge] [INFO] # Search Movie
+19-10-2019 12:07:53.435 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:07:53.438 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:07:58.147 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:08:08.031 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:08:13.091 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "10.30 AM"
+
+19-10-2019 12:08:23.604 [Gauge] [ERROR] Failed Step: Select the theatre "KG Cinemas: Coimbatore" and the time of the show "10.30 AM"
+19-10-2019 12:08:23.604 [Gauge] [ERROR] Error Message: Error: Link with text 10.30 AM  not found
+19-10-2019 12:08:23.604 [Gauge] [ERROR] Specification: specs/searchMovie.spec:7
+19-10-2019 12:08:23.604 [Gauge] [ERROR] Stacktrace: 
+Error: Link with text 10.30 AM  not found
+    at elements (node_modules/taiko/lib/elementSearch.js:272:11)
+    at async _click (node_modules/taiko/lib/taiko.js:972:34)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 12:08:24.136 [Gauge] [INFO] Closing connection [127.0.0.1:57287] cause: EOF
+19-10-2019 12:08:24.216 [Gauge] [DEBUG] Plugin [Html Report] with pid [64852] has exited
+19-10-2019 12:08:24.320 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:08:24.321 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:08:24.321 [Gauge] [INFO] 
+Total time taken: 36.195s
+19-10-2019 12:16:00.386 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:16:00.387 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:16:01.928 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:16:01.929 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:16:03.320 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:16:03.716 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:16:11.214 [Gauge] [INFO] # Search Movie
+19-10-2019 12:16:11.220 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:16:11.227 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:16:18.344 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:16:25.832 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:16:31.023 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "10.30 AM"
+
+19-10-2019 12:16:33.217 [Gauge] [INFO] Closing connection [127.0.0.1:59474] cause: read tcp 127.0.0.1:59471->127.0.0.1:59474: read: connection reset by peer
+19-10-2019 12:16:33.300 [Gauge] [DEBUG] Plugin [Html Report] with pid [64989] has exited
+19-10-2019 12:16:33.405 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+19-10-2019 12:16:33.405 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19-10-2019 12:16:33.405 [Gauge] [INFO] 
+Total time taken: 32.204s
+19-10-2019 12:19:30.788 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:19:30.789 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:19:32.264 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:19:32.265 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:19:33.511 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:19:33.821 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:19:37.867 [Gauge] [INFO] # Search Movie
+19-10-2019 12:19:37.872 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:19:37.876 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:19:42.477 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:19:51.243 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:19:58.690 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "10.30 AM"
+19-10-2019 12:20:00.216 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+19-10-2019 12:20:02.154 [Gauge] [ERROR] Failed Step: Select the number of seats to be booked "3"
+19-10-2019 12:20:02.154 [Gauge] [ERROR] Error Message: Error: Please provide a more specific selector, too many matches.
+19-10-2019 12:20:02.154 [Gauge] [ERROR] Specification: specs/searchMovie.spec:8
+19-10-2019 12:20:02.154 [Gauge] [ERROR] Stacktrace: 
+Error: Please provide a more specific selector, too many matches.
+    at _click (node_modules/taiko/lib/taiko.js:1005:11)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 12:20:02.719 [Gauge] [INFO] Closing connection [127.0.0.1:60017] cause: EOF
+19-10-2019 12:20:02.737 [Gauge] [DEBUG] Plugin [Html Report] with pid [65265] has exited
+19-10-2019 12:20:02.844 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:20:02.844 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:20:02.844 [Gauge] [INFO] 
+Total time taken: 31.097s
+19-10-2019 12:20:37.076 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:20:37.077 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:20:38.274 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:20:38.275 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:20:39.488 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:20:39.805 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:20:42.873 [Gauge] [INFO] # Search Movie
+19-10-2019 12:20:42.877 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:20:42.879 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:20:46.960 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:20:56.230 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:21:01.109 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "10.30 AM"
+19-10-2019 12:21:04.279 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+19-10-2019 12:21:06.456 [Gauge] [ERROR] Failed Step: Select the number of seats to be booked "3"
+19-10-2019 12:21:06.456 [Gauge] [ERROR] Error Message: Error: Please provide a more specific selector, too many matches.
+19-10-2019 12:21:06.456 [Gauge] [ERROR] Specification: specs/searchMovie.spec:8
+19-10-2019 12:21:06.456 [Gauge] [ERROR] Stacktrace: 
+Error: Please provide a more specific selector, too many matches.
+    at _click (node_modules/taiko/lib/taiko.js:1005:11)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 12:21:06.943 [Gauge] [INFO] Closing connection [127.0.0.1:60144] cause: read tcp 127.0.0.1:60141->127.0.0.1:60144: read: connection reset by peer
+19-10-2019 12:21:07.034 [Gauge] [DEBUG] Plugin [Html Report] with pid [65374] has exited
+19-10-2019 12:21:07.140 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:21:07.140 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:21:07.140 [Gauge] [INFO] 
+Total time taken: 29.204s
+19-10-2019 12:22:22.352 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:22:22.353 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:22:23.675 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:22:23.676 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:22:24.966 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:22:25.465 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:22:31.310 [Gauge] [INFO] # Search Movie
+19-10-2019 12:22:31.314 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:22:31.323 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:22:38.842 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:22:45.842 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:22:50.712 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "10.30 AM"
+19-10-2019 12:22:53.808 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+19-10-2019 12:22:55.953 [Gauge] [ERROR] Failed Step: Select the number of seats to be booked "3"
+19-10-2019 12:22:55.953 [Gauge] [ERROR] Error Message: Error: Please provide a more specific selector, too many matches.
+19-10-2019 12:22:55.953 [Gauge] [ERROR] Specification: specs/searchMovie.spec:8
+19-10-2019 12:22:55.953 [Gauge] [ERROR] Stacktrace: 
+Error: Please provide a more specific selector, too many matches.
+    at _click (node_modules/taiko/lib/taiko.js:1005:11)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 12:22:56.433 [Gauge] [INFO] Closing connection [127.0.0.1:60422] cause: EOF
+19-10-2019 12:22:56.519 [Gauge] [DEBUG] Plugin [Html Report] with pid [65473] has exited
+19-10-2019 12:22:56.624 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:22:56.624 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:22:56.624 [Gauge] [INFO] 
+Total time taken: 33.374s
+19-10-2019 12:27:04.095 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:27:04.096 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:27:05.457 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:27:05.458 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:27:06.600 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:27:06.918 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:27:11.877 [Gauge] [INFO] # Search Movie
+19-10-2019 12:27:11.885 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:27:11.888 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:27:20.668 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:27:27.912 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:27:33.337 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "10.30 AM"
+19-10-2019 12:27:36.437 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+19-10-2019 12:27:40.836 [Gauge] [INFO] Closing connection [127.0.0.1:61722] cause: EOF
+19-10-2019 12:27:40.914 [Gauge] [DEBUG] Plugin [Html Report] with pid [65711] has exited
+19-10-2019 12:27:41.018 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+19-10-2019 12:27:41.018 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19-10-2019 12:27:41.018 [Gauge] [INFO] 
+Total time taken: 36.045s
+19-10-2019 12:29:53.102 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:29:53.102 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:29:54.419 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:29:54.419 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:29:55.694 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:29:56.047 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:29:59.331 [Gauge] [INFO] # Search Movie
+19-10-2019 12:29:59.338 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:29:59.341 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:30:03.562 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:30:09.509 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:30:13.022 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "1030"
+19-10-2019 12:30:23.531 [Gauge] [ERROR] Failed Step: Select the theatre "KG Cinemas: Coimbatore" and the time of the show "1030"
+19-10-2019 12:30:23.531 [Gauge] [ERROR] Error Message: Error: Custom selector $(//a[@data-showtime-code=1030]) not found
+19-10-2019 12:30:23.531 [Gauge] [ERROR] Specification: specs/searchMovie.spec:7
+19-10-2019 12:30:23.531 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//a[@data-showtime-code=1030]) not found
+    at elements (node_modules/taiko/lib/elementSearch.js:272:11)
+    at async _click (node_modules/taiko/lib/taiko.js:972:34)
+    at async click (node_modules/taiko/lib/taiko.js:1054:5)
+    at async module.exports.<computed> (node_modules/taiko/lib/taiko.js:3542:14)
+19-10-2019 12:30:24.033 [Gauge] [INFO] Closing connection [127.0.0.1:62569] cause: read tcp 127.0.0.1:62566->127.0.0.1:62569: read: connection reset by peer
+19-10-2019 12:30:24.117 [Gauge] [DEBUG] Plugin [Html Report] with pid [65919] has exited
+19-10-2019 12:30:24.222 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:30:24.222 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-10-2019 12:30:24.222 [Gauge] [INFO] 
+Total time taken: 30.236s
+19-10-2019 12:30:39.104 [Gauge] [DEBUG] Plugin js is already installed.
+19-10-2019 12:30:39.105 [Gauge] [DEBUG] Plugin html-report is already installed.
+19-10-2019 12:30:40.445 [Gauge] [DEBUG] Checking updates...
+19-10-2019 12:30:40.446 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:30:41.901 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:30:42.269 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+19-10-2019 12:30:44.905 [Gauge] [INFO] # Search Movie
+19-10-2019 12:30:44.909 [Gauge] [INFO] ## Scenario1
+19-10-2019 12:30:44.912 [Gauge] [DEBUG] * Enter the city name "coimbatore"
+19-10-2019 12:30:49.058 [Gauge] [DEBUG] * Search for the movie "Asuran"
+19-10-2019 12:30:57.902 [Gauge] [DEBUG] * Select the date "24"
+19-10-2019 12:31:03.198 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "1030"
+19-10-2019 12:31:06.383 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+19-10-2019 12:31:10.598 [Gauge] [INFO] Closing connection [127.0.0.1:62871] cause: EOF
+19-10-2019 12:31:10.689 [Gauge] [DEBUG] Plugin [Html Report] with pid [66001] has exited
+19-10-2019 12:31:10.794 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+19-10-2019 12:31:10.794 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19-10-2019 12:31:10.794 [Gauge] [INFO] 
+Total time taken: 30.786s
