@@ -1,0 +1,71 @@
+07:50:47.898 Watching directory: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs
+07:50:47.898 Found 1 files
+07:50:47.917 Initializing concepts cache with 0 concepts
+07:50:47.918 Initializing specs cache with 1 specs
+07:50:47.918 Adding specs from /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+07:50:47.918 Initializing steps cache with 1 steps
+07:50:47.921 Starting language runner
+07:50:50.791 LangServer: reading on stdin, writing on stdout
+the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+07:50:50.719 Listening on port:49596
+07:51:11.771 Watching directory: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs
+07:51:11.771 Found 1 files
+07:51:11.784 Initializing concepts cache with 0 concepts
+07:51:11.785 Initializing specs cache with 1 specs
+07:51:11.785 Adding specs from /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+07:51:11.785 Initializing steps cache with 1 steps
+07:51:11.786 Starting language runner
+07:51:12.593 (node:31848) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+07:51:12.726 Listening on port:49705
+07:51:12.728 LangServer: reading on stdin, writing on stdout
+07:51:38.331 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+07:52:57.027 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+07:53:01.385 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+12:25:32.971 Watching directory: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs
+12:25:32.971 Found 1 files
+12:25:33.007 Initializing concepts cache with 0 concepts
+12:25:33.008 Initializing specs cache with 1 specs
+12:25:33.008 Adding specs from /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+12:25:33.008 Initializing steps cache with 1 steps
+12:25:33.009 Starting language runner
+12:25:35.106 (node:37470) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+12:25:35.163 Listening on port:52764
+12:25:35.165 LangServer: reading on stdin, writing on stdout
+19:05:30.581 Line 13: Unexpected token ILLEGAL
+19:05:31.086 Line 13: Unexpected token ILLEGAL
+19:05:31.662 Line 14: Unexpected identifier
+19:05:32.178 Line 14: Unexpected identifier
+19:05:33.739 Line 32: Unexpected end of input
+19:05:34.254 Line 32: Unexpected end of input
+19:05:39.341 Line 14: Unexpected token ILLEGAL
+19:05:39.860 Line 14: Unexpected token ILLEGAL
+19:05:40.172 Line 32: Unexpected end of input
+19:05:40.698 Line 14: Unexpected token ILLEGAL
+19:05:41.379 Line 32: Unexpected end of input
+19:05:41.897 Line 32: Unexpected end of input
+19:07:20.047 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+19:07:23.472 request #35: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:6 Step should not be blank
+19:07:23.731 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+19:07:25.824 request #37: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:6 Step should not be blank
+19:07:26.080 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+19:09:41.144 request #41: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:6 Step should not be blank
+19:09:50.539 request #46: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:6 Step should not be blank
+19:09:51.986 request #49: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:8 Step should not be blank
+19:09:52.247 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+19:09:52.523 request #50: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:8 Step should not be blank
+19:09:52.778 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+19:09:58.155 request #60: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:8 Step should not be blank
+19:09:58.406 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+19:10:00.547 request #63: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:8 Step should not be blank
+19:10:00.800 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+19:07:36.256 request #66: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+/Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec:8 Step should not be blank
+19:07:38.664 Spec file added / modified: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec

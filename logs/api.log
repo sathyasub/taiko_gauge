@@ -1,0 +1,9 @@
+08:35:02.384 Watching directory: /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs
+08:35:02.385 Found 1 files
+08:35:02.396 Initializing concepts cache with 0 concepts
+08:35:02.397 Initializing specs cache with 1 specs
+08:35:02.397 Adding specs from /Users/in-cbe-sathya/Documents/vodqa_taiko/taiko_gauge/specs/example.spec
+08:35:02.397 Initializing steps cache with 1 steps
+08:35:02.397 Gauge daemon initialized and listening on port: 61322
+08:35:03.382 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+08:35:03.383 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"/Users/in-cbe-sathya/.gauge/plugins/java/0.6.9/libs" > 

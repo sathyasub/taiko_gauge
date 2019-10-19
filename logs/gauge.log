@@ -1,0 +1,152 @@
+07:53:26.283 Plugin js is already installed.
+07:53:26.285 Plugin html-report is already installed.
+07:53:27.391 No specifications found in test.
+07:53:56.242 Plugin js is already installed.
+07:53:56.243 Plugin html-report is already installed.
+07:53:57.417 # StartUpPage
+07:53:57.420 ## Scenario1
+07:53:58.742 Checking updates...
+07:53:59.966 * Navigate to URL "https://in.bookmyshow.com"
+07:54:12.838 Plugin [Html Report] with pid [31966] has exited
+07:54:12.943 Specifications:	1 executed	1 passed	0 failed	0 skipped
+07:54:12.943 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07:54:12.943 
+Total time taken: 15.891s
+07:54:12.943 Updates are available. Run `gauge update -c` for more info.
+07:55:18.158 Plugin js is already installed.
+07:55:18.159 Plugin html-report is already installed.
+07:55:20.497 # StartUpPage
+07:55:20.511 ## Scenario1
+07:55:20.516 * Navigate to URL "https://in.bookmyshow.com"
+07:55:28.378 Checking updates...
+07:55:30.317 Plugin [Html Report] with pid [32025] has exited
+07:55:30.422 Specifications:	1 executed	1 passed	0 failed	0 skipped
+07:55:30.422 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07:55:30.422 
+Total time taken: 11.649s
+07:55:30.422 Updates are available. Run `gauge update -c` for more info.
+08:35:23.865 Plugin js is already installed.
+08:35:23.865 Plugin html-report is already installed.
+08:35:26.277 # StartUpPage
+08:35:26.285 Checking updates...
+08:35:26.294 ## Scenario1
+08:35:26.298 * Navigate to URL "https://in.bookmyshow.com"
+08:35:46.736 Failed Step: Navigate to URL "https://in.bookmyshow.com"
+08:35:46.736 Error Message: Error: Timed out
+08:35:46.736 Specification: specs/example.spec:5
+08:35:46.736 Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/in-cbe-sathya/.gauge/plugins/js/2.3.5/src/test.js:43:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+08:35:46.852 Plugin [Html Report] with pid [32787] has exited
+08:35:46.954 Specifications:	1 executed	0 passed	1 failed	0 skipped
+08:35:46.954 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+08:35:46.954 
+Total time taken: 22.214s
+08:35:46.954 Updates are available. Run `gauge update -c` for more info.
+19:09:45.785 Plugin js is already installed.
+19:09:45.789 Plugin html-report is already installed.
+19:09:47.433 Checking updates...
+19:09:52.157 # StartUpPage
+19:09:52.170 ## Scenario1
+19:09:52.175 * Navigate to URL "https://in.bookmyshow.com"
+19:09:55.957 Plugin [Html Report] with pid [74799] has exited
+19:09:56.062 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:09:56.062 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:09:56.062 
+Total time taken: 8.423s
+19:09:56.068 Updates are available. Run `gauge update -c` for more info.
+19:12:37.362 Plugin js is already installed.
+19:12:37.363 Plugin html-report is already installed.
+19:12:38.463 # StartUpPage
+19:12:38.466 ## Scenario1
+19:12:39.038 * Navigate to URL "https://in.bookmyshow.com"
+19:12:39.792 Checking updates...
+19:12:46.103 Plugin [Html Report] with pid [74838] has exited
+19:12:46.214 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:12:46.214 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:12:46.214 
+Total time taken: 8.051s
+19:12:46.215 Updates are available. Run `gauge update -c` for more info.
+19:12:48.808 Plugin js is already installed.
+19:12:48.808 Plugin html-report is already installed.
+19:12:49.866 # StartUpPage
+19:12:49.869 ## Scenario1
+19:12:50.260 * Navigate to URL "https://in.bookmyshow.com"
+19:12:50.296 Checking updates...
+19:12:56.950 Plugin [Html Report] with pid [74874] has exited
+19:12:57.051 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:12:57.051 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:12:57.051 
+Total time taken: 7.545s
+19:12:57.051 Updates are available. Run `gauge update -c` for more info.
+11:05:15.364 Plugin js is already installed.
+11:05:15.375 Plugin html-report is already installed.
+11:05:17.372 Checking updates...
+11:05:20.826 # StartUpPage
+11:05:20.841 ## Scenario1
+11:05:20.848 * Navigate to URL "https://in.bookmyshow.com"
+11:05:30.058 Failed Step: Navigate to URL "https://in.bookmyshow.com"
+11:05:30.058 Error Message: {}
+11:05:30.058 Specification: specs/example.spec:5
+11:05:30.058 Stacktrace: 
+ReferenceError: click is not defined
+11:05:30.185 Plugin [Html Report] with pid [76147] has exited
+11:05:30.289 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:05:30.289 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:05:30.289 
+Total time taken: 13.36s
+11:05:30.290 Updates are available. Run `gauge update -c` for more info.
+11:06:36.521 Plugin js is already installed.
+11:06:36.521 Plugin html-report is already installed.
+11:06:37.955 Checking updates...
+11:06:38.804 # StartUpPage
+11:06:38.816 ## Scenario1
+11:06:38.823 * Navigate to URL "https://in.bookmyshow.com"
+11:06:46.251 Plugin [Html Report] with pid [76202] has exited
+11:06:46.357 Specifications:	1 executed	1 passed	0 failed	0 skipped
+11:06:46.358 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+11:06:46.358 
+Total time taken: 9.23s
+11:06:46.358 Updates are available. Run `gauge update -c` for more info.
+11:07:40.099 Plugin js is already installed.
+11:07:40.099 Plugin html-report is already installed.
+11:07:41.652 Checking updates...
+11:07:41.906 # StartUpPage
+11:07:41.917 ## Scenario1
+11:07:41.922 * Navigate to URL "https://in.bookmyshow.com"
+11:08:02.166 Failed Step: Navigate to URL "https://in.bookmyshow.com"
+11:08:02.166 Error Message: Error: Timed out
+11:08:02.166 Specification: specs/example.spec:5
+11:08:02.166 Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/in-cbe-sathya/.gauge/plugins/js/2.3.5/src/test.js:43:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+11:08:02.297 Plugin [Html Report] with pid [76251] has exited
+11:08:02.398 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:08:02.398 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:08:02.398 
+Total time taken: 21.683s
+11:08:02.398 Updates are available. Run `gauge update -c` for more info.
+11:08:09.657 Plugin js is already installed.
+11:08:09.659 Plugin html-report is already installed.
+11:08:11.349 Checking updates...
+11:08:11.654 # StartUpPage
+11:08:11.676 ## Scenario1
+11:08:11.681 * Navigate to URL "https://in.bookmyshow.com"
+11:08:32.027 Failed Step: Navigate to URL "https://in.bookmyshow.com"
+11:08:32.027 Error Message: Error: Timed out
+11:08:32.027 Specification: specs/example.spec:5
+11:08:32.027 Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/in-cbe-sathya/.gauge/plugins/js/2.3.5/src/test.js:43:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+11:08:32.158 Plugin [Html Report] with pid [76292] has exited
+11:08:32.261 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:08:32.261 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:08:32.261 
+Total time taken: 21.958s
+11:08:32.261 Updates are available. Run `gauge update -c` for more info.
