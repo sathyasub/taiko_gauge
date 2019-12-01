@@ -1,6 +1,11 @@
 {
 	"Args": [
-		"run"
+		"run",
+		"--tags",
+		"search"
 	],
-	"FailedItems": []
+	"FailedItems": [
+		"specs/tags.spec:7",
+		"specs/tags.spec:18"
+	]
 }

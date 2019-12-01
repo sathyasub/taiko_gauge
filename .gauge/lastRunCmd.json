@@ -1,5 +1,7 @@
 [
 	"gauge",
 	"run",
-	"specs/"
+	"--parallel",
+	"-n=2",
+	"specs"
 ]
