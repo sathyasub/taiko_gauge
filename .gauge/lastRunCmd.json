@@ -1,7 +1,5 @@
 [
 	"gauge",
 	"run",
-	"--parallel",
-	"-n=2",
-	"specs"
+	"specs/specFile.spec"
 ]

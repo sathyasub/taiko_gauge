@@ -2213,3 +2213,542 @@ Listening on port:49885
 18:22:11.197
 Listening on port:49162
 27-11-2019 18:22:11.201 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+15:25:19.141
+Line 10: Unexpected token ILLEGAL
+15:25:19.664
+Line 10: Unexpected token ILLEGAL
+15:25:38.402
+Line 10: Unexpected token ILLEGAL
+15:25:38.915
+Line 10: Unexpected token ILLEGAL
+15:25:39.746
+Line 11: Unexpected token ILLEGAL
+15:25:40.242
+Line 11: Unexpected token ILLEGAL
+15:25:40.708
+Line 12: Unexpected token ILLEGAL
+15:25:41.229 Line 12: Unexpected token ILLEGAL
+15:25:42.408
+Line 12: Unexpected token ILLEGAL
+15:25:42.701
+Line 11: Unexpected token ILLEGAL
+15:25:43.228
+Line 11: Unexpected token ILLEGAL
+15:25:55.710 Line 11: Unexpected token ILLEGAL
+15:25:56.034
+Line 11: Unexpected token ILLEGAL
+15:25:56.552 Line 11: Unexpected token ILLEGAL
+15:25:57.518
+Line 11: Unexpected token ILLEGAL
+15:25:58.037 Line 11: Unexpected token ILLEGAL
+15:25:59.165
+Line 11: Unexpected token ILLEGAL
+15:25:59.691 Line 11: Unexpected token ILLEGAL
+15:26:00.190 Line 11: Unexpected token ILLEGAL
+15:26:00.762 Line 12: Unexpected token ILLEGAL
+15:26:01.279 Line 12: Unexpected token ILLEGAL
+15:26:05.608
+Line 12: Unexpected token ILLEGAL
+15:26:06.248
+Line 12: Unexpected token ILLEGAL
+15:26:06.767 Line 12: Unexpected token ILLEGAL
+15:26:07.858
+Line 12: Unexpected token ILLEGAL
+15:26:08.239
+Line 12: Unexpected token ILLEGAL
+15:26:08.758 Line 12: Unexpected token ILLEGAL
+15:26:09.484 Line 12: Unexpected token ILLEGAL
+15:26:09.828
+Line 12: Unexpected token ILLEGAL
+15:26:10.343 Line 12: Unexpected token ILLEGAL
+15:26:10.954
+Line 12: Unexpected token ILLEGAL
+15:47:13.946 Line 15: Unexpected token :
+15:47:14.471 Line 15: Unexpected token :
+01-12-2019 16:01:29.153 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+01-12-2019 16:01:29.153 [Gauge] [DEBUG] Adding concepts from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.cpt
+01-12-2019 16:01:29.158 [Gauge] [INFO] Watching directory: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs
+01-12-2019 16:01:29.158 [Gauge] [DEBUG] Found 8 files
+01-12-2019 16:01:29.158 [Gauge] [INFO] Initializing specs cache with 7 specs
+01-12-2019 16:01:29.158 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/geolocation.spec
+01-12-2019 16:01:29.158 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+01-12-2019 16:01:29.158 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/dynamicparameters.spec
+01-12-2019 16:01:29.158 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/intercept.spec
+01-12-2019 16:01:29.158 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.spec
+01-12-2019 16:01:29.158 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+01-12-2019 16:01:29.158 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/tags.spec
+01-12-2019 16:01:29.158 [Gauge] [INFO] Initializing steps cache with 8 steps
+01-12-2019 16:01:29.159 [Gauge] [INFO] Starting language runner
+16:01:30.061
+(node:11215) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+16:01:30.164
+Listening on port:64570
+01-12-2019 16:01:30.165 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+16:08:31.544
+Line 16: Unexpected token ILLEGAL
+16:08:32.053
+Line 16: Unexpected token ILLEGAL
+16:08:42.412
+Line 16: Unexpected token ]
+16:08:42.939 Line 16: Unexpected token ]
+16:08:44.157
+Line 16: Unexpected token :
+16:08:44.677
+Line 16: Unexpected token :
+16:08:46.529
+Line 16: Unexpected token :
+16:08:47.056 Line 16: Unexpected token :
+16:32:29.417 Line 14: Unexpected identifier
+16:32:29.900
+Line 14: Unexpected string
+16:32:51.102
+Line 16: Unexpected token ,
+16:32:54.436
+Line 9: Unexpected token ;
+16:38:37.489
+Line 11: Unexpected token {
+16:38:37.812
+Line 11: Unexpected token {
+16:38:38.317 Line 11: Unexpected token {
+16:38:38.596
+Line 11: Unexpected token {
+16:38:39.111 Line 11: Unexpected token {
+16:38:40.522
+Line 11: Unexpected token ILLEGAL
+16:38:41.039
+Line 11: Unexpected token ILLEGAL
+16:38:42.648
+Line 11: Unexpected token ILLEGAL
+16:38:43.171 Line 11: Unexpected token ILLEGAL
+16:38:47.219
+Line 11: Unexpected token ILLEGAL
+16:38:47.736 Line 11: Unexpected token ILLEGAL
+04-12-2019 13:41:12.747 [Gauge] [INFO] Watching directory: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs
+04-12-2019 13:41:12.747 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+04-12-2019 13:41:12.748 [Gauge] [DEBUG] Adding concepts from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.cpt
+04-12-2019 13:41:12.748 [Gauge] [DEBUG] Found 8 files
+04-12-2019 13:41:12.765 [Gauge] [INFO] Initializing specs cache with 7 specs
+04-12-2019 13:41:12.765 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+04-12-2019 13:41:12.765 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/dynamicparameters.spec
+04-12-2019 13:41:12.765 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/intercept.spec
+04-12-2019 13:41:12.765 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+04-12-2019 13:41:12.765 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.spec
+04-12-2019 13:41:12.765 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/geolocation.spec
+04-12-2019 13:41:12.765 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/tags.spec
+04-12-2019 13:41:12.765 [Gauge] [INFO] Initializing steps cache with 8 steps
+04-12-2019 13:41:12.769 [Gauge] [INFO] Starting language runner
+13:41:14.277
+(node:23217) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+13:41:14.321
+Listening on port:51307
+04-12-2019 13:41:14.327 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11:34:41.262
+Line 2: Unexpected token :
+11:34:41.758
+Line 2: Unexpected token :
+11:34:43.213
+Line 2: Unexpected token :
+06-12-2019 18:12:43.439 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+06-12-2019 18:12:43.439 [Gauge] [DEBUG] Adding concepts from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.cpt
+06-12-2019 18:12:43.444 [Gauge] [INFO] Watching directory: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs
+06-12-2019 18:12:43.444 [Gauge] [DEBUG] Found 8 files
+06-12-2019 18:12:43.444 [Gauge] [INFO] Initializing specs cache with 7 specs
+06-12-2019 18:12:43.444 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/geolocation.spec
+06-12-2019 18:12:43.444 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.spec
+06-12-2019 18:12:43.444 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/intercept.spec
+06-12-2019 18:12:43.444 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 18:12:43.444 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/tags.spec
+06-12-2019 18:12:43.444 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:12:43.444 [Gauge] [DEBUG] Adding specs from /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/dynamicparameters.spec
+06-12-2019 18:12:43.444 [Gauge] [INFO] Initializing steps cache with 8 steps
+06-12-2019 18:12:43.445 [Gauge] [INFO] Starting language runner
+18:12:44.462
+(node:42040) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+18:12:44.588
+Listening on port:53907
+06-12-2019 18:12:44.590 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+06-12-2019 18:12:51.949 [Gauge] [INFO] Spec file removed: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/geolocation.spec
+06-12-2019 18:13:08.206 [Gauge] [INFO] Spec file removed: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/intercept.spec
+06-12-2019 18:13:47.591 [Gauge] [INFO] Spec file removed: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/tags.spec
+06-12-2019 18:20:52.230 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.spec
+06-12-2019 18:21:01.313 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:23:46.346 [Gauge] [DEBUG] request #94: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:3 Multiple spec headings found in same file
+06-12-2019 18:23:46.627 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:23:50.517 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:23:51.369 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:23:55.623 [Gauge] [DEBUG] request #103: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:23:55.872 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:23:58.273 [Gauge] [DEBUG] request #106: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:23:58.706 [Gauge] [DEBUG] request #108: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:23:58.960 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:01.217 [Gauge] [DEBUG] request #111: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:01.466 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:01.811 [Gauge] [DEBUG] request #113: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:02.062 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:02.878 [Gauge] [DEBUG] request #115: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:03.138 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:03.612 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:03.760 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:06.318 [Gauge] [DEBUG] request #117: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:06.694 [Gauge] [DEBUG] request #118: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:06.949 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:08.431 [Gauge] [DEBUG] request #120: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:08.684 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:09.802 [Gauge] [DEBUG] request #122: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:10.054 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:11.302 [Gauge] [DEBUG] request #124: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:11.770 [Gauge] [DEBUG] request #126: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:12.022 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:13.877 [Gauge] [DEBUG] request #128: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:14.132 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:14.600 [Gauge] [DEBUG] request #130: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <Language> could not be resolved
+06-12-2019 18:24:14.847 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:34.133 [Gauge] [DEBUG] request #134: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:13 Dynamic parameter <C> could not be resolved
+06-12-2019 18:24:35.043 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:35.260 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:35.479 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:35.643 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:43.452 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:24:44.209 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:25:10.664 [Gauge] [DEBUG] request #142: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:3 Data table should have at least 1 data row
+06-12-2019 18:25:10.935 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:25:12.893 [Gauge] [DEBUG] request #144: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:3 Data table should have at least 1 data row
+06-12-2019 18:25:13.145 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:25:14.409 [Gauge] [DEBUG] request #147: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:3 Data table should have at least 1 data row
+06-12-2019 18:25:15.424 [Gauge] [DEBUG] request #148: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:11 Dynamic parameter <City> could not be resolved
+06-12-2019 18:25:15.681 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:25:54.009 [Gauge] [DEBUG] request #165: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:11 Dynamic parameter <City> could not be resolved
+06-12-2019 18:25:58.509 [Gauge] [DEBUG] request #170: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:11 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:06.153 [Gauge] [DEBUG] request #179: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:11 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:07.728 [Gauge] [DEBUG] request #182: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:07.985 [Gauge] [DEBUG] request #183: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:08.242 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:10.918 [Gauge] [DEBUG] request #186: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:11.174 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:12.304 [Gauge] [DEBUG] request #188: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:12.555 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:13.882 [Gauge] [DEBUG] request #189: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:14.140 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:14.799 [Gauge] [DEBUG] request #191: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:15.709 [Gauge] [DEBUG] request #192: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:16.117 [Gauge] [DEBUG] request #193: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:16.518 [Gauge] [DEBUG] request #194: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:16.779 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:17.194 [Gauge] [DEBUG] request #196: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:17.447 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:18.538 [Gauge] [DEBUG] request #197: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:18.800 [Gauge] [DEBUG] request #199: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:19.648 [Gauge] [DEBUG] request #201: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:20.474 [Gauge] [DEBUG] request #203: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:20.730 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:21.058 [Gauge] [DEBUG] request #204: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:21.474 [Gauge] [DEBUG] request #205: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:22.330 [Gauge] [DEBUG] request #206: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:22.584 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:23.252 [Gauge] [DEBUG] request #208: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:12 Dynamic parameter <City> could not be resolved
+06-12-2019 18:26:23.702 [Gauge] [DEBUG] request #209: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:23.954 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:27.072 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:28.032 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:28.735 [Gauge] [DEBUG] request #216: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:29.215 [Gauge] [DEBUG] request #217: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:29.469 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:30.962 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:31.626 [Gauge] [DEBUG] request #221: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:32.245 [Gauge] [DEBUG] request #222: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:32.502 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:33.214 [Gauge] [DEBUG] request #224: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:33.469 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:34.322 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:35.811 [Gauge] [DEBUG] request #228: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:4 Data table should have at least 1 data row
+06-12-2019 18:26:36.072 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:36.962 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:42.484 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:44.702 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:26:45.266 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:12.910 [Gauge] [DEBUG] request #252: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:19 Table header should not be blank
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:19 Table header should not be blank
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:19 Table header should not be blank
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:19 Table header should not be blank
+06-12-2019 18:27:13.169 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:14.873 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:21.906 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:23.130 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:25.538 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:26.889 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:31.680 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:34.634 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:38.127 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:27:39.503 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:28:18.724 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:28:46.780 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:28:49.770 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:28:55.311 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:28:56.676 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:00.587 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:01.369 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:06.305 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:09.874 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:11.898 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:14.386 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:15.891 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:18.347 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:21.088 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:49.881 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:51.227 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:52.315 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:53.900 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:57.283 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:29:58.817 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:30:02.112 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:30:02.857 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:30:05.762 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:31:22.420 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:31:25.277 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:31:26.187 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:31:26.816 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:07.169 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:08.099 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:14.198 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:16.653 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:16.702 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:16.944 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:40.663 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:40.895 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:48.129 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:48.236 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:48.460 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:52.541 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:53.128 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:57.708 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:58.357 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:58.880 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:32:59.102 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:33:05.742 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:33:05.975 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:33:06.167 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:32.267 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:37.624 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:38.037 [Gauge] [DEBUG] request #466: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:14 Dynamic parameter <> could not be resolved
+06-12-2019 18:34:38.566 [Gauge] [DEBUG] request #468: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:14 Dynamic parameter <Ci> could not be resolved
+06-12-2019 18:34:39.362 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:39.620 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:39.822 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:42.432 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:46.901 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:49.148 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:50.813 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:51.914 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:51.983 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:52.215 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:52.471 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:52.505 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:52.539 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:34:52.574 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:35:15.795 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:35:17.030 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:35:18.232 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:35:19.740 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:35:55.660 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:00.675 [Gauge] [DEBUG] request #530: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 Dynamic parameter <"Kaithi"> could not be resolved
+06-12-2019 18:36:00.934 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:02.655 [Gauge] [DEBUG] request #532: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 Dynamic parameter <Mo> could not be resolved
+06-12-2019 18:36:02.909 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:03.540 [Gauge] [DEBUG] request #534: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 Dynamic parameter <Mov> could not be resolved
+06-12-2019 18:36:04.051 [Gauge] [DEBUG] request #535: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 Dynamic parameter <Movie> could not be resolved
+06-12-2019 18:36:04.308 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:06.574 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:08.436 [Gauge] [DEBUG] request #540: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 String not terminated
+06-12-2019 18:36:09.396 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:09.870 [Gauge] [DEBUG] request #544: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 Dynamic parameter <> could not be resolved
+06-12-2019 18:36:10.931 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:14.352 [Gauge] [DEBUG] request #551: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 String not terminated
+06-12-2019 18:36:15.047 [Gauge] [DEBUG] request #553: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 String not terminated
+06-12-2019 18:36:15.308 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:15.860 [Gauge] [DEBUG] request #555: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 String not terminated
+06-12-2019 18:36:16.148 [Gauge] [DEBUG] request #556: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 String not terminated
+06-12-2019 18:36:16.416 [Gauge] [DEBUG] request #557: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 String not terminated
+06-12-2019 18:36:16.675 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:19.226 [Gauge] [DEBUG] request #560: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 String not terminated
+06-12-2019 18:36:19.597 [Gauge] [DEBUG] request #561: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 String not terminated
+06-12-2019 18:36:19.854 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:23.975 [Gauge] [DEBUG] request #568: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 Dynamic parameter <Coimbatore" "2230"> could not be resolved
+06-12-2019 18:36:24.836 [Gauge] [DEBUG] request #573: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 Dynamic parameter <time> could not be resolved
+06-12-2019 18:36:25.093 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:25.898 [Gauge] [DEBUG] request #577: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec:15 Dynamic parameter <> could not be resolved
+06-12-2019 18:36:26.157 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:27.272 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:27.672 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:27.852 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:31.698 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:32.483 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:33.012 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:33.222 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:33.397 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:34.789 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:37.207 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:37.460 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:36:37.663 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:38:24.263 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 18:38:24.447 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+18:49:09.983
+Line 45: Unexpected token :
+18:49:10.495
+Line 45: Unexpected token :
+18:49:11.779
+Line 45: Unexpected token )
+18:49:12.297
+Line 45: Unexpected token )
+18:51:29.626 Line 45: Unexpected token )
+18:51:29.916
+Line 45: Unexpected token :
+06-12-2019 19:41:24.478 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 19:41:24.616 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 19:41:24.816 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 20:06:13.577 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps.spec
+06-12-2019 20:10:32.457 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.spec
+06-12-2019 20:17:13.734 [Gauge] [INFO] Concept file removed: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/searchMovie.cpt
+06-12-2019 20:18:52.531 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:18:58.272 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:19:01.670 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:19:14.250 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:19:16.530 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:19:17.212 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:19:17.995 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:19:55.354 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:20:47.870 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:20:59.596 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:21:00.800 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+20:26:28.228
+Line 51: Unexpected token ILLEGAL
+20:26:28.749 Line 51: Unexpected token ILLEGAL
+20:26:29.746
+Line 51: Unexpected token :
+20:26:30.262
+Line 51: Unexpected token :
+20:26:36.766
+Line 51: Unexpected token (
+20:26:37.283
+Line 51: Unexpected token (
+20:26:41.661
+Line 51: Unexpected token (
+20:26:42.168 Line 51: Unexpected token (
+20:27:13.860
+Line 51: Unexpected token (
+20:27:14.389 Line 51: Unexpected token (
+20:27:23.222
+Line 51: Unexpected token (
+20:27:23.738
+Line 51: Unexpected token (
+20:28:43.225
+Line 51: Unexpected token (
+20:28:43.758
+Line 51: Unexpected token (
+20:28:47.902
+Line 51: Unexpected token (
+20:28:48.418 Line 51: Unexpected token (
+20:28:49.185
+Line 51: Unexpected token (
+20:28:49.714 Line 51: Unexpected token (
+20:28:59.100
+Line 51: Unexpected token (
+20:28:59.623 Line 51: Unexpected token (
+20:29:00.380
+Line 51: Unexpected token (
+20:29:05.483
+Line 51: Unexpected token ,
+20:29:06.026 Line 51: Unexpected token ,
+20:30:14.477
+Line 51: Unexpected token )
+20:30:14.997 Line 51: Unexpected token )
+06-12-2019 20:32:19.422 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:32:27.115 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:28.433 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:31.954 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:32.815 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:36.719 [Gauge] [DEBUG] request #859: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec:6 Dynamic parameter <date> could not be resolved
+06-12-2019 20:33:36.975 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:37.386 [Gauge] [DEBUG] request #861: textDocument/codeLens: failed to parse /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+/Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec:6 Dynamic parameter <date> could not be resolved
+06-12-2019 20:33:37.634 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:40.256 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:41.107 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:43.704 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:33:45.289 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:37:45.484 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:37:46.475 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:37:47.749 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+06-12-2019 20:37:49.301 [Gauge] [INFO] Spec file added / modified: /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/specFile.spec
+20:37:58.151
+Line 51: Unexpected token ,
+20:37:58.666 Line 51: Unexpected token ,
+20:38:00.399 Line 51: Unexpected token ,
+20:38:00.922 Line 51: Unexpected token ,

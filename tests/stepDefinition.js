@@ -11,10 +11,10 @@ const {
 } = require('taiko');
 const assert = require("assert");
 
-// beforeSuite(async () => {
-//     await openBrowser({ headless: false }, { args: ["--start-fullscreen"] });
-//     await goto("https://in.bookmyshow.com");
-// });
+beforeSuite(async () => {
+    await openBrowser({ headless: false }, { args: ["--window-size=2500,1500"] });
+    await goto("https://in.bookmyshow.com");
+});
 step("Open the browser", async () => {
     await openBrowser({ headless: false }, { args: ["--start-fullscreen"] });
 
@@ -37,12 +37,18 @@ step("Search for the movie <movie>", async (movie) => {
 });
 
 step("Select the date <date>", async (date) => {
-    await click(date);
+    await click(date,{ navigationTimeout: 10000 });
 });
 
 step("Select the theatre <theatre> and the time of the show <time>", async (theatre, time) => {
     var movieTime = "//a[@data-showtime-code=" + time + "]"
-    await click($(movieTime, toRightOf(theatre)));
+    // let expectedOptions = {
+    //     navigationTimeout: 40000,
+    //     waitForNavigation: true,
+    //     waitForEvents: ['movieTime'],
+    //   }
+
+    await click(time, toRightOf(theatre));
     await click("Accept");
 });
 
@@ -63,9 +69,9 @@ step("Close the browser", async () => {
 
 })
 
-// afterSuite(async () => {
-//     await closeBrowser();
-// });
+afterSuite(async () => {
+    await closeBrowser();
+});
 
 step("Check the ticket for <tickettype>", async (tickettype) => {
     assert.ok(await text("Available", below(tickettype)).exists(), "Tickets not available for GOLD");

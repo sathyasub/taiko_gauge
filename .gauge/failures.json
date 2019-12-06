@@ -1,11 +1,8 @@
 {
 	"Args": [
-		"run",
-		"--tags",
-		"search"
+		"run"
 	],
 	"FailedItems": [
-		"specs/tags.spec:7",
-		"specs/tags.spec:18"
+		"specs/specFile.spec"
 	]
 }

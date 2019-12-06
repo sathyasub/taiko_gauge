@@ -1,4 +1,0 @@
-#GeoLocation
-
-##Scenario
-* Geolocation

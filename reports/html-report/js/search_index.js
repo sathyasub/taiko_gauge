@@ -1,1 +1,1 @@
-var index = {"Tags":{"admin":["specs/tags.html"],"search":["specs/tags.html"]},"Specs":{"Search Movie":["specs/tags.html"]}};
+var index = {"Tags":{},"Specs":{"Search Movie":["specs/specFile.html"]}};

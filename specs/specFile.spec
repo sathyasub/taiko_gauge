@@ -1,9 +1,9 @@
 # Search Movie
 
 ## Scenario1
-* Enter the city name "Coimbatore"
-* Search for the movie "Kaithi"
-* Select the date "19" 
-* Select the theatre "KG Cinemas: Coimbatore" and the time of the show "2235"
+* Enter the city name "Chennai"
+* Search for the movie "Jada"
+* Select the date "08"
+* Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
 * Select the number of seats to be booked "3"
 

@@ -1,23 +1,19 @@
 # Search Movie
+Book a ticket for <movie_name> <date> <theatre> <time>
+
+    |id| City            | MovieName              | Date | Theatre               | Time  |
+    |--|---------------- |------------------------|------|-----------------------|------ |
+    |1 | Chennai         | Jada                   | 08   |AGS Cinemas OMR: Navlur| 1930  |
+    |2 | Coimbatore      | Enai Noki Paayum Thota | 08   |KG Cinemas: Coimbatore | 1300  |
+
 
 * Open the browser
 * Navigate to URL
  
 ## Scenario1
-* Enter the city name "Coimbatore"
-* Search for the movie "Kaithi"
-* Select the date "19" 
-* Select the theatre "KG Cinemas: Coimbatore" and the time of the show "2235"
-* Check the ticket for "GOLD"
-* Select the number of seats to be booked "3"
+* Enter the city name <City>
+* Book a ticket for <MovieName> <Date> <Theatre> <Time>
 
-## Scenario2
-* Enter the city name "Chennai"
-* Search for the movie "Kaithi"
-* Select the date "25" 
-* Select the theatre "AGS Cinemas OMR: Navlur" and the time of the show "1830"
-* Check the ticket for "Pearl"
-* Select the number of seats to be booked "3"
-
+___
 * Close the browser
 

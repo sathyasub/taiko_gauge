@@ -1,4 +1,0 @@
-#intercept
-
-##Mock
-* Intercept
