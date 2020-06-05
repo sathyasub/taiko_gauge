@@ -6274,3 +6274,1172 @@ Error: Timed out
 06-12-2019 20:39:02.630 [Gauge] [INFO] 
 Total time taken: 50.013s
 06-12-2019 20:39:02.631 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:42:18.822 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:42:18.822 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:42:20.181 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:42:20.186 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:42:21.384 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:42:21.679 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:42:21.974 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:42:28.198 [Gauge] [INFO] # Search Movie
+06-12-2019 20:42:28.205 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:42:28.209 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:42:34.425 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:42:40.654 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:42:44.386 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:42:48.274 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+06-12-2019 20:42:58.610 [Gauge] [ERROR] Failed Step: Select the number of seats to be booked "3"
+06-12-2019 20:42:58.610 [Gauge] [ERROR] Error Message: Error: Custom selector $(//ul[@id='popQty']//li[text()=3]) not found
+06-12-2019 20:42:58.610 [Gauge] [ERROR] Specification: specs/specFile.spec:8
+06-12-2019 20:42:58.610 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//ul[@id='popQty']//li[text()=3]) not found
+06-12-2019 20:42:59.068 [Gauge] [INFO] Closing connection [127.0.0.1:56763] cause: EOF
+06-12-2019 20:42:59.145 [Gauge] [DEBUG] Plugin [Html Report] with pid [46261] has exited
+06-12-2019 20:42:59.250 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 20:42:59.250 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 20:42:59.250 [Gauge] [INFO] 
+Total time taken: 39.737s
+06-12-2019 20:42:59.251 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:47:47.768 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:47:47.768 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:47:49.382 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:47:49.383 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:47:50.596 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:47:50.889 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:47:51.179 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:47:58.412 [Gauge] [INFO] # Search Movie
+06-12-2019 20:47:58.416 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:47:58.422 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:48:05.173 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:48:10.810 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:48:14.904 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:48:15.175 [Gauge] [ERROR] Failed Step: Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:48:15.175 [Gauge] [ERROR] Error Message: {}
+06-12-2019 20:48:15.175 [Gauge] [ERROR] Specification: specs/specFile.spec:7
+06-12-2019 20:48:15.175 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: taiko is not defined
+    at Object.step (tests/stepDefinition.js:50:5)
+06-12-2019 20:48:15.551 [Gauge] [INFO] Closing connection [127.0.0.1:58186] cause: read tcp 127.0.0.1:58183->127.0.0.1:58186: read: connection reset by peer
+06-12-2019 20:48:15.640 [Gauge] [DEBUG] Plugin [Html Report] with pid [46401] has exited
+06-12-2019 20:48:15.741 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 20:48:15.741 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 20:48:15.741 [Gauge] [INFO] 
+Total time taken: 27.079s
+06-12-2019 20:48:15.742 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:49:21.148 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:49:21.149 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:49:22.329 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:49:22.329 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:49:23.421 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:49:23.715 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:49:24.007 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:49:26.106 [Gauge] [INFO] # Search Movie
+06-12-2019 20:49:26.111 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:49:26.115 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:49:29.396 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:49:35.810 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:49:39.190 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:49:43.061 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+06-12-2019 20:50:03.339 [Gauge] [ERROR] Failed Step: Select the number of seats to be booked "3"
+06-12-2019 20:50:03.339 [Gauge] [ERROR] Error Message: Error: Timed out
+06-12-2019 20:50:03.339 [Gauge] [ERROR] Specification: specs/specFile.spec:8
+06-12-2019 20:50:03.339 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/in-cbe-sathya/.gauge/plugins/js/2.3.5/src/test.js:43:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+06-12-2019 20:50:03.536 [Gauge] [INFO] Closing connection [127.0.0.1:58655] cause: EOF
+06-12-2019 20:50:03.621 [Gauge] [DEBUG] Plugin [Html Report] with pid [46476] has exited
+06-12-2019 20:50:03.724 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 20:50:03.725 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 20:50:03.725 [Gauge] [INFO] 
+Total time taken: 41.756s
+06-12-2019 20:50:03.725 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:51:36.632 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:51:36.633 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:51:37.745 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:51:37.746 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:51:39.106 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:51:39.493 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:51:39.798 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:51:43.198 [Gauge] [INFO] # Search Movie
+06-12-2019 20:51:43.205 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:51:43.210 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:51:47.455 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:51:53.819 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:51:57.502 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:51:57.771 [Gauge] [ERROR] Failed Step: Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:51:57.771 [Gauge] [ERROR] Error Message: {}
+06-12-2019 20:51:57.771 [Gauge] [ERROR] Specification: specs/specFile.spec:7
+06-12-2019 20:51:57.771 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: clearBrowserCookies is not defined
+    at Object.step (tests/stepDefinition.js:51:5)
+06-12-2019 20:51:58.110 [Gauge] [INFO] Closing connection [127.0.0.1:59470] cause: EOF
+06-12-2019 20:51:58.195 [Gauge] [DEBUG] Plugin [Html Report] with pid [46763] has exited
+06-12-2019 20:51:58.299 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 20:51:58.299 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 20:51:58.300 [Gauge] [INFO] 
+Total time taken: 20.787s
+06-12-2019 20:51:58.300 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:52:16.197 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:52:16.197 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:52:17.427 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:52:17.428 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:52:18.736 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:52:19.024 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:52:19.310 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:52:24.043 [Gauge] [INFO] # Search Movie
+06-12-2019 20:52:24.049 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:52:24.053 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:52:30.141 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:52:45.458 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:52:45.459 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:52:46.917 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:52:46.919 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:52:48.131 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:52:48.432 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:52:48.723 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:52:50.446 [Gauge] [INFO] # Search Movie
+06-12-2019 20:52:50.452 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:52:50.457 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:52:56.612 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:53:06.968 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:53:11.821 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:53:15.451 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+06-12-2019 20:53:20.635 [Gauge] [INFO] Closing connection [127.0.0.1:59914] cause: EOF
+06-12-2019 20:53:20.727 [Gauge] [DEBUG] Plugin [Html Report] with pid [46900] has exited
+06-12-2019 20:53:20.828 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:53:20.828 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:53:20.828 [Gauge] [INFO] 
+Total time taken: 34.707s
+06-12-2019 20:53:20.829 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:53:40.540 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:53:40.540 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:53:41.094 [Gauge] [INFO] # Search Movie
+06-12-2019 20:53:41.097 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:53:41.099 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:53:41.112 [Gauge] [CRITICAL] Connection to runner with Pid 46958 lost. The runner probably quit unexpectedly. Inspect logs for potential reasons. Error : read tcp 127.0.0.1:60210->127.0.0.1:60212: use of closed network connection
+06-12-2019 20:53:44.572 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:53:44.573 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:53:45.128 [Gauge] [INFO] # Search Movie
+06-12-2019 20:53:45.132 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:53:45.134 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:53:45.146 [Gauge] [CRITICAL] Connection to runner with Pid 46995 lost. The runner probably quit unexpectedly. Inspect logs for potential reasons. Error : read tcp 127.0.0.1:60236->127.0.0.1:60238: use of closed network connection
+06-12-2019 20:53:47.486 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:53:47.486 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:53:48.113 [Gauge] [INFO] # Search Movie
+06-12-2019 20:53:48.117 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:53:48.119 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:53:48.134 [Gauge] [CRITICAL] Connection to runner with Pid 47025 lost. The runner probably quit unexpectedly. Inspect logs for potential reasons. Error : read tcp 127.0.0.1:60259->127.0.0.1:60261: use of closed network connection
+06-12-2019 20:54:06.823 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:54:06.823 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:54:08.167 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:54:08.168 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:54:09.383 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:54:09.698 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:54:09.985 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:54:16.071 [Gauge] [INFO] # Search Movie
+06-12-2019 20:54:16.077 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:54:16.082 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:54:21.093 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:54:26.169 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:54:31.117 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:54:34.558 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+06-12-2019 20:54:39.404 [Gauge] [INFO] Closing connection [127.0.0.1:60358] cause: EOF
+06-12-2019 20:54:39.491 [Gauge] [DEBUG] Plugin [Html Report] with pid [47099] has exited
+06-12-2019 20:54:39.595 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:54:39.595 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:54:39.595 [Gauge] [INFO] 
+Total time taken: 32.085s
+06-12-2019 20:54:39.596 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:54:59.209 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:54:59.210 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:55:00.618 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:55:00.619 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:55:01.813 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:55:02.115 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:55:02.404 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:55:05.877 [Gauge] [INFO] # Search Movie
+06-12-2019 20:55:05.883 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:55:05.889 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:55:13.959 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:55:32.375 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:55:37.231 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:55:40.522 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+06-12-2019 20:55:45.142 [Gauge] [INFO] Closing connection [127.0.0.1:60662] cause: read tcp 127.0.0.1:60659->127.0.0.1:60662: read: connection reset by peer
+06-12-2019 20:55:45.231 [Gauge] [DEBUG] Plugin [Html Report] with pid [47158] has exited
+06-12-2019 20:55:45.336 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:55:45.336 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:55:45.336 [Gauge] [INFO] 
+Total time taken: 45.465s
+06-12-2019 20:55:45.337 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:56:22.444 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:56:22.444 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:56:23.710 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:56:23.711 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:56:24.796 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:56:25.085 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:56:25.379 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:56:31.988 [Gauge] [INFO] # Search Movie
+06-12-2019 20:56:31.993 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:56:31.997 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:56:38.273 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:56:43.400 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:56:48.127 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:56:51.520 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+06-12-2019 20:56:56.437 [Gauge] [INFO] Closing connection [127.0.0.1:61083] cause: EOF
+06-12-2019 20:56:56.529 [Gauge] [DEBUG] Plugin [Html Report] with pid [47215] has exited
+06-12-2019 20:56:56.632 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:56:56.632 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:56:56.632 [Gauge] [INFO] 
+Total time taken: 33.509s
+06-12-2019 20:56:56.632 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:57:01.138 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:57:01.139 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:57:02.487 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:57:02.489 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:57:03.688 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:57:04.006 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:57:04.300 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:57:11.793 [Gauge] [INFO] # Search Movie
+06-12-2019 20:57:11.797 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:57:11.800 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:57:18.345 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:57:23.640 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:57:29.204 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:57:32.452 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+06-12-2019 20:57:37.098 [Gauge] [INFO] Closing connection [127.0.0.1:61315] cause: read tcp 127.0.0.1:61312->127.0.0.1:61315: read: connection reset by peer
+06-12-2019 20:57:37.186 [Gauge] [DEBUG] Plugin [Html Report] with pid [47274] has exited
+06-12-2019 20:57:37.290 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:57:37.290 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:57:37.290 [Gauge] [INFO] 
+Total time taken: 35.517s
+06-12-2019 20:57:37.290 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:57:38.477 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:57:38.477 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:57:39.732 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:57:39.734 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:57:40.943 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:57:41.233 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:57:41.521 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:57:43.072 [Gauge] [INFO] # Search Movie
+06-12-2019 20:57:43.079 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:57:43.084 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:57:51.012 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:57:58.901 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:58:03.448 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+06-12-2019 20:58:07.092 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+06-12-2019 20:58:11.827 [Gauge] [INFO] Closing connection [127.0.0.1:61557] cause: EOF
+06-12-2019 20:58:11.916 [Gauge] [DEBUG] Plugin [Html Report] with pid [47322] has exited
+06-12-2019 20:58:12.018 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:58:12.018 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 20:58:12.019 [Gauge] [INFO] 
+Total time taken: 32.864s
+06-12-2019 20:58:12.019 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 20:59:32.674 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 20:59:32.675 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 20:59:33.254 [Gauge] [INFO] # Search Movie
+06-12-2019 20:59:33.258 [Gauge] [DEBUG] 
+   |id|City   |MovieName|Date|Theatre                |Time|
+   |--|-------|---------|----|-----------------------|----|
+   |1 |Chennai|Jada     |08  |AGS Cinemas OMR: Navlur|1930|
+06-12-2019 20:59:33.258 [Gauge] [INFO] ## Scenario1
+06-12-2019 20:59:33.261 [Gauge] [DEBUG] * Open the browser
+06-12-2019 20:59:34.109 [Gauge] [DEBUG] Checking updates...
+06-12-2019 20:59:34.110 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:59:34.327 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 20:59:35.230 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:59:35.522 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:59:35.806 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 20:59:37.216 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 20:59:40.478 [Gauge] [DEBUG] * Book a ticket for <MovieName> <Date> <Theatre> <Time>
+
+06-12-2019 20:59:40.478 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 20:59:49.084 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 20:59:52.643 [Gauge] [DEBUG] * Select the theatre "AGS Cinemas OMR: Navlur" and the time of the show "1930"
+06-12-2019 21:00:03.155 [Gauge] [ERROR] Failed Step: Select the theatre <theatre> and the time of the show <time>
+06-12-2019 21:00:03.155 [Gauge] [ERROR] Error Message: Error: Element with text 1930 not found
+06-12-2019 21:00:03.155 [Gauge] [ERROR] Specification: specs/steps.spec
+06-12-2019 21:00:03.155 [Gauge] [ERROR] Stacktrace: 
+Error: Element with text 1930 not found
+06-12-2019 21:00:03.155 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 21:00:03.465 [Gauge] [DEBUG] 
+   |id|City      |MovieName             |Date|Theatre               |Time|
+   |--|----------|----------------------|----|----------------------|----|
+   |2 |Coimbatore|Enai Noki Paayum Thota|08  |KG Cinemas: Coimbatore|1300|
+06-12-2019 21:00:03.465 [Gauge] [INFO] ## Scenario1
+06-12-2019 21:00:03.465 [Gauge] [DEBUG] * Open the browser
+06-12-2019 21:00:04.548 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 21:00:07.606 [Gauge] [DEBUG] * Enter the city name "Coimbatore"
+06-12-2019 21:00:11.657 [Gauge] [DEBUG] * Book a ticket for <MovieName> <Date> <Theatre> <Time>
+
+06-12-2019 21:00:11.657 [Gauge] [DEBUG] * Search for the movie "Enai Noki Paayum Thota"
+06-12-2019 21:00:19.290 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 21:00:23.730 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "1300"
+06-12-2019 21:00:34.474 [Gauge] [ERROR] Failed Step: Select the theatre <theatre> and the time of the show <time>
+06-12-2019 21:00:34.474 [Gauge] [ERROR] Error Message: Error: Element with text 1300 not found
+06-12-2019 21:00:34.474 [Gauge] [ERROR] Specification: specs/steps.spec
+06-12-2019 21:00:34.474 [Gauge] [ERROR] Stacktrace: 
+Error: Element with text 1300 not found
+06-12-2019 21:00:34.474 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 21:00:34.851 [Gauge] [INFO] Closing connection [127.0.0.1:62119] cause: EOF
+06-12-2019 21:00:34.917 [Gauge] [DEBUG] Plugin [Html Report] with pid [47432] has exited
+06-12-2019 21:00:35.019 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 21:00:35.019 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+06-12-2019 21:00:35.019 [Gauge] [INFO] 
+Total time taken: 1m1.656s
+06-12-2019 21:00:35.020 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 21:00:57.605 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 21:00:57.606 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 21:00:58.171 [Gauge] [INFO] # Search Movie
+06-12-2019 21:00:58.175 [Gauge] [DEBUG] 
+   |id|City   |MovieName|Date|Theatre                |Time    |
+   |--|-------|---------|----|-----------------------|--------|
+   |1 |Chennai|Jada     |08  |AGS Cinemas OMR: Navlur|07:30 PM|
+06-12-2019 21:00:58.175 [Gauge] [INFO] ## Scenario1
+06-12-2019 21:00:58.178 [Gauge] [DEBUG] * Open the browser
+06-12-2019 21:00:58.977 [Gauge] [DEBUG] Checking updates...
+06-12-2019 21:00:58.978 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 21:00:59.167 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 21:01:00.054 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 21:01:00.344 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 21:01:00.635 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 21:01:12.899 [Gauge] [DEBUG] * Enter the city name "Chennai"
+06-12-2019 21:01:16.328 [Gauge] [DEBUG] * Book a ticket for <MovieName> <Date> <Theatre> <Time>
+
+06-12-2019 21:01:16.328 [Gauge] [DEBUG] * Search for the movie "Jada"
+06-12-2019 21:01:26.821 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 21:01:30.851 [Gauge] [DEBUG] * Select the theatre "AGS Cinemas OMR: Navlur" and the time of the show "07:30 PM"
+06-12-2019 21:01:34.503 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+06-12-2019 21:01:44.824 [Gauge] [ERROR] Failed Step: Select the number of seats to be booked "3"
+06-12-2019 21:01:44.824 [Gauge] [ERROR] Error Message: Error: Custom selector $(//ul[@id='popQty']//li[text()=3]) not found
+06-12-2019 21:01:44.824 [Gauge] [ERROR] Specification: specs/steps.spec
+06-12-2019 21:01:44.824 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//ul[@id='popQty']//li[text()=3]) not found
+06-12-2019 21:01:44.824 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 21:01:45.195 [Gauge] [DEBUG] 
+   |id|City      |MovieName             |Date|Theatre               |Time    |
+   |--|----------|----------------------|----|----------------------|--------|
+   |2 |Coimbatore|Enai Noki Paayum Thota|08  |KG Cinemas: Coimbatore|01:00 PM|
+06-12-2019 21:01:45.195 [Gauge] [INFO] ## Scenario1
+06-12-2019 21:01:45.196 [Gauge] [DEBUG] * Open the browser
+06-12-2019 21:01:46.125 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 21:01:55.431 [Gauge] [DEBUG] * Enter the city name "Coimbatore"
+06-12-2019 21:02:01.999 [Gauge] [DEBUG] * Book a ticket for <MovieName> <Date> <Theatre> <Time>
+
+06-12-2019 21:02:02.000 [Gauge] [DEBUG] * Search for the movie "Enai Noki Paayum Thota"
+06-12-2019 21:02:07.276 [Gauge] [DEBUG] * Select the date "08"
+06-12-2019 21:02:10.780 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "01:00 PM"
+06-12-2019 21:02:14.361 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+06-12-2019 22:52:49.778 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 22:52:49.780 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 22:52:50.736 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps1.spec:10 Step implementation not found => 'Open the browser'
+06-12-2019 22:52:50.736 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps1.spec:11 Step implementation not found => 'Navigate to URL'
+06-12-2019 22:52:50.736 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/step1.cpt:3 Step implementation not found => 'Enter Username <Username>'
+06-12-2019 22:52:50.736 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/step1.cpt:4 Step implementation not found => 'Enter Password <Password>'
+06-12-2019 22:52:50.736 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/step1.cpt:5 Step implementation not found => 'Click SignIn'
+06-12-2019 22:52:50.736 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/steps1.spec:18 Step implementation not found => 'Close the browser'
+06-12-2019 22:52:51.379 [Gauge] [INFO] Closing connection [127.0.0.1:57958] cause: read tcp 127.0.0.1:57951->127.0.0.1:57958: read: connection reset by peer
+06-12-2019 22:52:51.448 [Gauge] [DEBUG] Plugin [Html Report] with pid [48505] has exited
+06-12-2019 22:52:51.554 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+06-12-2019 22:52:51.554 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	2 skipped
+06-12-2019 22:52:51.554 [Gauge] [INFO] 
+Total time taken: 607ms
+06-12-2019 23:03:45.551 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:03:45.552 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:03:46.115 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/dynamicparameters.spec:10 Step implementation not found => 'Open the browser'
+06-12-2019 23:03:46.115 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/dynamicparameters.spec:11 Step implementation not found => 'Navigate to URL'
+06-12-2019 23:03:46.116 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/dynamicparameters.spec:12 Step implementation not found => 'Enter the city name "Coimbatore"'
+06-12-2019 23:03:46.116 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/dynamicparameters.spec:13 Step implementation not found => 'Select language <Language>'
+06-12-2019 23:03:46.116 [Gauge] [ERROR] [ValidationError] /Users/in-cbe-sathya/Desktop/Projects/Projects/taiko_gauge/specs/dynamicparameters.spec:14 Step implementation not found => 'Close the browser'
+06-12-2019 23:03:46.311 [Gauge] [INFO] Closing connection [127.0.0.1:63827] cause: EOF
+06-12-2019 23:03:46.320 [Gauge] [DEBUG] Plugin [Html Report] with pid [49362] has exited
+06-12-2019 23:03:46.423 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+06-12-2019 23:03:46.423 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	2 skipped
+06-12-2019 23:03:46.423 [Gauge] [INFO] 
+Total time taken: 102ms
+06-12-2019 23:24:59.024 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:24:59.025 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:24:59.972 [Gauge] [INFO] # Search Movie
+06-12-2019 23:24:59.983 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:24:59.983 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:24:59.983 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:25:02.538 [Gauge] [DEBUG] Checking updates...
+06-12-2019 23:25:02.538 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:25:03.844 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:25:04.459 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:25:05.380 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:25:06.018 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:25:10.801 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:25:16.933 [Gauge] [DEBUG] * Enter Contact information "Ravi" "Ravi" "123456789" "abc@gamil.com"
+06-12-2019 23:25:16.934 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:25:19.332 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:25:21.639 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:25:24.043 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:25:26.523 [Gauge] [DEBUG] * SignUp with the <userName> <Password>
+
+06-12-2019 23:25:26.523 [Gauge] [DEBUG] * Enter Username "Ravi"
+06-12-2019 23:25:28.848 [Gauge] [DEBUG] * Enter Password "Ravi"
+06-12-2019 23:25:30.294 [Gauge] [ERROR] Failed Step: Enter Password <Password>
+06-12-2019 23:25:30.294 [Gauge] [ERROR] Error Message: {}
+06-12-2019 23:25:30.294 [Gauge] [ERROR] Specification: specs/steps1.spec
+06-12-2019 23:25:30.295 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: Username is not defined
+06-12-2019 23:25:30.295 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:25:30.657 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+06-12-2019 23:25:30.657 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:25:30.657 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:25:31.725 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:25:36.607 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:25:41.316 [Gauge] [DEBUG] * Enter Contact information "Ravi" "Ravi" "123456789" "abc@gamil.com"
+06-12-2019 23:25:41.316 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:25:43.636 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:25:45.957 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:25:48.355 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:25:50.823 [Gauge] [DEBUG] * SignUp with the <userName> <Password>
+
+06-12-2019 23:25:50.824 [Gauge] [DEBUG] * Enter Username "Sathya"
+06-12-2019 23:25:53.167 [Gauge] [DEBUG] * Enter Password "Sathya"
+06-12-2019 23:25:54.495 [Gauge] [ERROR] Failed Step: Enter Password <Password>
+06-12-2019 23:25:54.495 [Gauge] [ERROR] Error Message: {}
+06-12-2019 23:25:54.495 [Gauge] [ERROR] Specification: specs/steps1.spec
+06-12-2019 23:25:54.495 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: Username is not defined
+06-12-2019 23:25:54.495 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:25:54.827 [Gauge] [INFO] Closing connection [127.0.0.1:65192] cause: EOF
+06-12-2019 23:25:54.925 [Gauge] [DEBUG] Plugin [Html Report] with pid [50754] has exited
+06-12-2019 23:25:55.029 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 23:25:55.029 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+06-12-2019 23:25:55.029 [Gauge] [INFO] 
+Total time taken: 55.321s
+06-12-2019 23:25:55.030 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 23:28:44.618 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:28:44.618 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:28:45.558 [Gauge] [INFO] # Search Movie
+06-12-2019 23:28:45.562 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:28:45.562 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:28:45.565 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:28:46.379 [Gauge] [DEBUG] Checking updates...
+06-12-2019 23:28:46.380 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:28:46.850 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:28:47.618 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:28:47.941 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:28:48.540 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:28:49.685 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:28:54.375 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:28:54.375 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:28:56.693 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:28:59.011 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:29:01.415 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:29:03.889 [Gauge] [DEBUG] * SignUp with the <userName> <Password>
+
+06-12-2019 23:29:03.890 [Gauge] [DEBUG] * Enter Username "Ravi"
+06-12-2019 23:29:06.200 [Gauge] [DEBUG] * Enter Password "Ravi"
+06-12-2019 23:29:10.824 [Gauge] [DEBUG] * Click SignIn
+06-12-2019 23:29:21.176 [Gauge] [ERROR] Failed Step: Click SignIn
+06-12-2019 23:29:21.176 [Gauge] [ERROR] Error Message: Error: Custom selector $(//input[@name='login']) not found
+06-12-2019 23:29:21.176 [Gauge] [ERROR] Specification: specs/steps1.spec
+06-12-2019 23:29:21.176 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//input[@name='login']) not found
+06-12-2019 23:29:21.176 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:29:21.354 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+06-12-2019 23:29:21.354 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:29:21.355 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:29:22.374 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:29:29.936 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:29:39.837 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:29:39.837 [Gauge] [DEBUG] * Enter firstname "Sathya"
+06-12-2019 23:29:42.196 [Gauge] [DEBUG] * Enter lastname "Sathya"
+06-12-2019 23:29:44.547 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:29:46.946 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:29:49.411 [Gauge] [DEBUG] * SignUp with the <userName> <Password>
+
+06-12-2019 23:29:49.411 [Gauge] [DEBUG] * Enter Username "Sathya"
+06-12-2019 23:29:51.755 [Gauge] [DEBUG] * Enter Password "Sathya"
+06-12-2019 23:29:56.436 [Gauge] [DEBUG] * Click SignIn
+06-12-2019 23:30:06.762 [Gauge] [ERROR] Failed Step: Click SignIn
+06-12-2019 23:30:06.762 [Gauge] [ERROR] Error Message: Error: Custom selector $(//input[@name='login']) not found
+06-12-2019 23:30:06.762 [Gauge] [ERROR] Specification: specs/steps1.spec
+06-12-2019 23:30:06.762 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//input[@name='login']) not found
+06-12-2019 23:30:06.762 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:30:07.043 [Gauge] [INFO] Closing connection [127.0.0.1:51970] cause: EOF
+06-12-2019 23:30:07.077 [Gauge] [DEBUG] Plugin [Html Report] with pid [50961] has exited
+06-12-2019 23:30:07.182 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 23:30:07.183 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+06-12-2019 23:30:07.183 [Gauge] [INFO] 
+Total time taken: 1m21.66s
+06-12-2019 23:30:07.183 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 23:32:36.873 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:32:36.873 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:32:37.802 [Gauge] [INFO] # Search Movie
+06-12-2019 23:32:37.805 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:32:37.806 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:32:37.808 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:32:39.125 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:32:43.213 [Gauge] [DEBUG] Checking updates...
+06-12-2019 23:32:43.214 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:32:45.698 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:32:45.704 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:32:46.309 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:32:46.799 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:32:50.669 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:32:50.670 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:32:53.004 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:32:55.313 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:32:57.713 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:33:00.186 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:33:10.136 [Gauge] [ERROR] Failed Step: Enter the address "Coimbatore"
+06-12-2019 23:33:10.136 [Gauge] [ERROR] Error Message: {}
+06-12-2019 23:33:10.136 [Gauge] [ERROR] Specification: specs/steps1.spec:16
+06-12-2019 23:33:10.136 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: dropDown is not defined
+06-12-2019 23:33:10.136 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:33:10.299 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+06-12-2019 23:33:10.300 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:33:10.302 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:33:11.217 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:33:19.865 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:33:37.623 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:33:37.624 [Gauge] [DEBUG] * Enter firstname "Sathya"
+06-12-2019 23:33:39.981 [Gauge] [DEBUG] * Enter lastname "Sathya"
+06-12-2019 23:33:42.331 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:33:44.725 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:33:47.190 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:33:57.138 [Gauge] [ERROR] Failed Step: Enter the address "Coimbatore"
+06-12-2019 23:33:57.138 [Gauge] [ERROR] Error Message: {}
+06-12-2019 23:33:57.138 [Gauge] [ERROR] Specification: specs/steps1.spec:16
+06-12-2019 23:33:57.138 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: dropDown is not defined
+06-12-2019 23:33:57.138 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:33:57.348 [Gauge] [INFO] Closing connection [127.0.0.1:55239] cause: EOF
+06-12-2019 23:33:57.409 [Gauge] [DEBUG] Plugin [Html Report] with pid [51238] has exited
+06-12-2019 23:33:57.512 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 23:33:57.512 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+06-12-2019 23:33:57.513 [Gauge] [INFO] 
+Total time taken: 1m19.786s
+06-12-2019 23:33:57.513 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 23:33:58.364 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:33:58.365 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:33:59.204 [Gauge] [INFO] # Search Movie
+06-12-2019 23:33:59.208 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:33:59.208 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:33:59.210 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:34:00.320 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:34:00.507 [Gauge] [DEBUG] Checking updates...
+06-12-2019 23:34:00.508 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:34:01.808 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:34:02.132 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:34:02.511 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:34:02.928 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:34:09.527 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:34:09.527 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:34:11.855 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:34:14.174 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:34:16.596 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:34:19.061 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:34:39.031 [Gauge] [ERROR] Failed Step: Enter the address "Coimbatore"
+06-12-2019 23:34:39.031 [Gauge] [ERROR] Error Message: "DropDown with label Country  not found"
+06-12-2019 23:34:39.031 [Gauge] [ERROR] Specification: specs/steps1.spec:16
+06-12-2019 23:34:39.031 [Gauge] [ERROR] Stacktrace: 
+06-12-2019 23:34:39.031 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:34:39.252 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+06-12-2019 23:34:39.252 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:34:39.254 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:34:40.199 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:34:43.101 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:34:48.652 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:34:48.652 [Gauge] [DEBUG] * Enter firstname "Sathya"
+06-12-2019 23:34:51.003 [Gauge] [DEBUG] * Enter lastname "Sathya"
+06-12-2019 23:34:53.347 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:34:55.733 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:34:58.198 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:35:18.108 [Gauge] [ERROR] Failed Step: Enter the address "Coimbatore"
+06-12-2019 23:35:18.109 [Gauge] [ERROR] Error Message: "DropDown with label Country  not found"
+06-12-2019 23:35:18.109 [Gauge] [ERROR] Specification: specs/steps1.spec:16
+06-12-2019 23:35:18.109 [Gauge] [ERROR] Stacktrace: 
+06-12-2019 23:35:18.109 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:35:18.306 [Gauge] [INFO] Closing connection [127.0.0.1:56422] cause: EOF
+06-12-2019 23:35:18.359 [Gauge] [DEBUG] Plugin [Html Report] with pid [51339] has exited
+06-12-2019 23:35:18.460 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 23:35:18.460 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+06-12-2019 23:35:18.460 [Gauge] [INFO] 
+Total time taken: 1m19.239s
+06-12-2019 23:35:18.460 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 23:35:22.401 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:35:22.401 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:35:23.218 [Gauge] [INFO] # Search Movie
+06-12-2019 23:35:23.222 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:35:23.222 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:35:23.225 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:35:24.527 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:35:37.030 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:35:37.030 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:35:37.507 [Gauge] [INFO] # Search Movie
+06-12-2019 23:35:37.511 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:35:37.511 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:35:37.514 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:35:38.448 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:35:48.770 [Gauge] [DEBUG] Checking updates...
+06-12-2019 23:35:48.771 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:35:50.156 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:35:50.642 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:35:51.247 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:35:51.878 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:36:00.508 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:36:00.514 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:36:02.854 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:36:05.180 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:36:07.579 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:36:10.054 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:36:29.976 [Gauge] [ERROR] Failed Step: Enter the address "Coimbatore"
+06-12-2019 23:36:29.976 [Gauge] [ERROR] Error Message: "DropDown with label country  not found"
+06-12-2019 23:36:29.976 [Gauge] [ERROR] Specification: specs/steps1.spec:16
+06-12-2019 23:36:29.976 [Gauge] [ERROR] Stacktrace: 
+06-12-2019 23:36:29.976 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:36:30.126 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+06-12-2019 23:36:30.126 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:36:30.128 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:36:31.277 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:36:35.493 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:36:40.456 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:36:40.456 [Gauge] [DEBUG] * Enter firstname "Sathya"
+06-12-2019 23:36:42.802 [Gauge] [DEBUG] * Enter lastname "Sathya"
+06-12-2019 23:36:45.151 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:36:47.551 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:36:50.007 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:37:03.127 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:37:03.128 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:37:04.918 [Gauge] [INFO] # Search Movie
+06-12-2019 23:37:04.924 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:37:04.924 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:37:04.930 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:37:05.986 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:37:07.320 [Gauge] [DEBUG] Checking updates...
+06-12-2019 23:37:07.321 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:37:09.293 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:37:09.698 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:37:10.221 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:37:10.234 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:37:16.454 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:37:16.454 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:37:18.780 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:37:21.095 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:37:23.490 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:37:25.965 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:37:45.893 [Gauge] [ERROR] Failed Step: Enter the address "Coimbatore"
+06-12-2019 23:37:45.893 [Gauge] [ERROR] Error Message: "DropDown with label Country:  not found"
+06-12-2019 23:37:45.893 [Gauge] [ERROR] Specification: specs/steps1.spec:16
+06-12-2019 23:37:45.893 [Gauge] [ERROR] Stacktrace: 
+06-12-2019 23:37:45.893 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:37:46.050 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+06-12-2019 23:37:46.050 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:37:46.051 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:37:46.939 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:37:50.455 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:37:57.219 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:37:57.219 [Gauge] [DEBUG] * Enter firstname "Sathya"
+06-12-2019 23:37:59.573 [Gauge] [DEBUG] * Enter lastname "Sathya"
+06-12-2019 23:38:01.921 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:38:04.322 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:38:06.788 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:38:26.710 [Gauge] [ERROR] Failed Step: Enter the address "Coimbatore"
+06-12-2019 23:38:26.710 [Gauge] [ERROR] Error Message: "DropDown with label Country:  not found"
+06-12-2019 23:38:26.710 [Gauge] [ERROR] Specification: specs/steps1.spec:16
+06-12-2019 23:38:26.710 [Gauge] [ERROR] Stacktrace: 
+06-12-2019 23:38:26.710 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:38:26.914 [Gauge] [INFO] Closing connection [127.0.0.1:59119] cause: EOF
+06-12-2019 23:38:26.972 [Gauge] [DEBUG] Plugin [Html Report] with pid [51516] has exited
+06-12-2019 23:38:27.076 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-12-2019 23:38:27.076 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+06-12-2019 23:38:27.076 [Gauge] [INFO] 
+Total time taken: 1m23.223s
+06-12-2019 23:38:27.077 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-12-2019 23:54:33.558 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:54:33.558 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:54:34.588 [Gauge] [INFO] # Search Movie
+06-12-2019 23:54:34.593 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:54:34.593 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:54:34.595 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:54:35.150 [Gauge] [DEBUG] Checking updates...
+06-12-2019 23:54:35.151 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:54:35.787 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:54:36.735 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:54:37.044 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:54:37.449 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:54:39.454 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:54:47.176 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:54:47.176 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:54:49.513 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:54:51.825 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:54:54.212 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:54:56.678 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:55:08.498 [Gauge] [ERROR] Failed Step: Enter the address "Coimbatore"
+06-12-2019 23:55:08.498 [Gauge] [ERROR] Error Message: Error: Option not available in drop down
+06-12-2019 23:55:08.498 [Gauge] [ERROR] Specification: specs/steps1.spec:16
+06-12-2019 23:55:08.498 [Gauge] [ERROR] Stacktrace: 
+Error: Option not available in drop down
+06-12-2019 23:55:08.498 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:55:08.680 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+06-12-2019 23:55:08.680 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:55:08.681 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:55:09.547 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:55:12.338 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:55:17.244 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:55:17.244 [Gauge] [DEBUG] * Enter firstname "Sathya"
+06-12-2019 23:55:19.593 [Gauge] [DEBUG] * Enter lastname "Sathya"
+06-12-2019 23:55:23.069 [Gauge] [DEBUG] Plugin js is already installed.
+06-12-2019 23:55:23.070 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-12-2019 23:55:23.724 [Gauge] [INFO] # Search Movie
+06-12-2019 23:55:23.730 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+06-12-2019 23:55:23.732 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:55:23.734 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:55:24.668 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:55:24.950 [Gauge] [DEBUG] Checking updates...
+06-12-2019 23:55:24.951 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:55:26.703 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:55:27.080 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:55:27.452 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:55:27.486 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+06-12-2019 23:55:32.609 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:55:32.609 [Gauge] [DEBUG] * Enter firstname "Ravi"
+06-12-2019 23:55:34.939 [Gauge] [DEBUG] * Enter lastname "Ravi"
+06-12-2019 23:55:37.256 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:55:39.655 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:55:42.123 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:55:53.880 [Gauge] [DEBUG] * SignUp with the <userName> <Password>
+
+06-12-2019 23:55:53.880 [Gauge] [DEBUG] * Enter Username "Ravi"
+06-12-2019 23:55:56.191 [Gauge] [DEBUG] * Enter Password "Ravi"
+06-12-2019 23:56:00.824 [Gauge] [DEBUG] * Click Register
+06-12-2019 23:56:04.687 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:56:04.843 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+06-12-2019 23:56:04.843 [Gauge] [INFO] ## Scenario1
+06-12-2019 23:56:04.844 [Gauge] [DEBUG] * Open the browser
+06-12-2019 23:56:05.676 [Gauge] [DEBUG] * Navigate to URL
+
+06-12-2019 23:56:07.984 [Gauge] [DEBUG] * Register to the website
+06-12-2019 23:56:12.851 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+06-12-2019 23:56:12.851 [Gauge] [DEBUG] * Enter firstname "Sathya"
+06-12-2019 23:56:15.212 [Gauge] [DEBUG] * Enter lastname "Sathya"
+06-12-2019 23:56:17.559 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+06-12-2019 23:56:19.963 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+06-12-2019 23:56:22.429 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+06-12-2019 23:56:34.118 [Gauge] [DEBUG] * SignUp with the <userName> <Password>
+
+06-12-2019 23:56:34.118 [Gauge] [DEBUG] * Enter Username "Sathya"
+06-12-2019 23:56:36.457 [Gauge] [DEBUG] * Enter Password "Sathya"
+06-12-2019 23:56:41.137 [Gauge] [DEBUG] * Click Register
+06-12-2019 23:56:46.334 [Gauge] [DEBUG] * Close the browser
+
+06-12-2019 23:56:46.505 [Gauge] [INFO] Closing connection [127.0.0.1:49658] cause: EOF
+06-12-2019 23:56:46.575 [Gauge] [DEBUG] Plugin [Html Report] with pid [51825] has exited
+06-12-2019 23:56:46.675 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-12-2019 23:56:46.676 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+06-12-2019 23:56:46.676 [Gauge] [INFO] 
+Total time taken: 1m23.026s
+06-12-2019 23:56:46.676 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+07-12-2019 00:01:49.772 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 00:01:49.772 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 00:01:50.115 [Gauge] [INFO] No specifications found in specs/steps1.spec.
+07-12-2019 00:01:56.353 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 00:01:56.354 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 00:01:56.961 [Gauge] [INFO] # Search Movie
+07-12-2019 00:01:56.965 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+07-12-2019 00:01:56.965 [Gauge] [INFO] ## Scenario1
+07-12-2019 00:01:56.967 [Gauge] [DEBUG] * Open the browser
+07-12-2019 00:01:58.036 [Gauge] [DEBUG] * Navigate to URL
+
+07-12-2019 00:01:58.276 [Gauge] [DEBUG] Checking updates...
+07-12-2019 00:01:58.277 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 00:02:00.261 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 00:02:00.568 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 00:02:00.919 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 00:02:01.793 [Gauge] [DEBUG] * Register to the website
+07-12-2019 00:02:06.740 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+07-12-2019 00:02:06.741 [Gauge] [DEBUG] * Enter firstname "Ravi"
+07-12-2019 00:02:09.059 [Gauge] [DEBUG] * Enter lastname "Ravi"
+07-12-2019 00:02:11.369 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+07-12-2019 00:02:13.763 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+07-12-2019 00:02:16.232 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+07-12-2019 00:02:27.944 [Gauge] [DEBUG] * SignUp with <userName> <Password>
+
+07-12-2019 00:02:27.944 [Gauge] [DEBUG] * Enter Username "Ravi"
+07-12-2019 00:02:30.260 [Gauge] [DEBUG] * Enter Password "Ravi"
+07-12-2019 00:02:34.869 [Gauge] [DEBUG] * Click Register
+07-12-2019 00:02:39.263 [Gauge] [DEBUG] * Close the browser
+
+07-12-2019 00:02:39.399 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+07-12-2019 00:02:39.399 [Gauge] [INFO] ## Scenario1
+07-12-2019 00:02:39.400 [Gauge] [DEBUG] * Open the browser
+07-12-2019 00:02:40.232 [Gauge] [DEBUG] * Navigate to URL
+
+07-12-2019 00:02:44.797 [Gauge] [DEBUG] * Register to the website
+07-12-2019 00:02:49.574 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+07-12-2019 00:02:49.574 [Gauge] [DEBUG] * Enter firstname "Sathya"
+07-12-2019 00:02:51.924 [Gauge] [DEBUG] * Enter lastname "Sathya"
+07-12-2019 00:02:54.273 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+07-12-2019 00:02:56.658 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+07-12-2019 00:02:59.110 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+07-12-2019 00:03:10.801 [Gauge] [DEBUG] * SignUp with <userName> <Password>
+
+07-12-2019 00:03:10.801 [Gauge] [DEBUG] * Enter Username "Sathya"
+07-12-2019 00:03:13.129 [Gauge] [DEBUG] * Enter Password "Sathya"
+07-12-2019 00:03:17.799 [Gauge] [DEBUG] * Click Register
+07-12-2019 00:03:21.959 [Gauge] [DEBUG] * Close the browser
+
+07-12-2019 00:03:22.173 [Gauge] [INFO] Closing connection [127.0.0.1:54221] cause: EOF
+07-12-2019 00:03:22.232 [Gauge] [DEBUG] Plugin [Html Report] with pid [52004] has exited
+07-12-2019 00:03:22.336 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-12-2019 00:03:22.336 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+07-12-2019 00:03:22.336 [Gauge] [INFO] 
+Total time taken: 1m25.406s
+07-12-2019 00:03:22.336 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+07-12-2019 07:57:53.352 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 07:57:53.356 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 07:57:54.982 [Gauge] [DEBUG] Checking updates...
+07-12-2019 07:57:54.983 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 07:57:56.186 [Gauge] [INFO] # Search Movie
+07-12-2019 07:57:56.190 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+07-12-2019 07:57:56.190 [Gauge] [INFO] ## Scenario1
+07-12-2019 07:57:56.193 [Gauge] [DEBUG] * Open the browser
+07-12-2019 07:57:56.540 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 07:57:56.840 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 07:57:57.159 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 07:58:01.277 [Gauge] [DEBUG] * Navigate to URL
+
+07-12-2019 07:58:04.269 [Gauge] [DEBUG] * Register to the website
+07-12-2019 07:58:09.146 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+07-12-2019 07:58:09.146 [Gauge] [DEBUG] * Enter firstname "Ravi"
+07-12-2019 07:58:11.497 [Gauge] [DEBUG] * Enter lastname "Ravi"
+07-12-2019 07:58:13.816 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+07-12-2019 07:58:16.217 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+07-12-2019 07:58:18.689 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+07-12-2019 07:58:30.442 [Gauge] [DEBUG] * SignUp with <userName> <Password>
+
+07-12-2019 07:58:30.442 [Gauge] [DEBUG] * Enter Username "Ravi"
+07-12-2019 07:58:32.769 [Gauge] [DEBUG] * Enter Password "Ravi"
+07-12-2019 07:58:37.401 [Gauge] [DEBUG] * Click Register
+07-12-2019 07:58:41.401 [Gauge] [DEBUG] * Close the browser
+
+07-12-2019 07:58:41.607 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+07-12-2019 07:58:41.607 [Gauge] [INFO] ## Scenario1
+07-12-2019 07:58:41.609 [Gauge] [DEBUG] * Open the browser
+07-12-2019 07:58:42.452 [Gauge] [DEBUG] * Navigate to URL
+
+07-12-2019 07:58:45.031 [Gauge] [DEBUG] * Register to the website
+07-12-2019 07:58:50.003 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+07-12-2019 07:58:50.003 [Gauge] [DEBUG] * Enter firstname "Sathya"
+07-12-2019 07:58:52.371 [Gauge] [DEBUG] * Enter lastname "Sathya"
+07-12-2019 07:58:54.726 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+07-12-2019 07:58:57.126 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+07-12-2019 07:58:59.586 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+07-12-2019 07:59:11.349 [Gauge] [DEBUG] * SignUp with <userName> <Password>
+
+07-12-2019 07:59:11.349 [Gauge] [DEBUG] * Enter Username "Sathya"
+07-12-2019 07:59:13.709 [Gauge] [DEBUG] * Enter Password "Sathya"
+07-12-2019 07:59:18.402 [Gauge] [DEBUG] * Click Register
+07-12-2019 07:59:22.896 [Gauge] [DEBUG] * Close the browser
+
+07-12-2019 07:59:23.252 [Gauge] [INFO] Closing connection [127.0.0.1:56969] cause: read tcp 127.0.0.1:56966->127.0.0.1:56969: read: connection reset by peer
+07-12-2019 07:59:23.347 [Gauge] [DEBUG] Plugin [Html Report] with pid [52987] has exited
+07-12-2019 07:59:23.451 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-12-2019 07:59:23.451 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+07-12-2019 07:59:23.451 [Gauge] [INFO] 
+Total time taken: 1m27.799s
+07-12-2019 07:59:23.452 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+07-12-2019 08:00:18.811 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 08:00:18.811 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 08:00:19.401 [Gauge] [INFO] # Search Movie
+07-12-2019 08:00:19.406 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |1 |Ravi    |Ravi    |
+07-12-2019 08:00:19.406 [Gauge] [INFO] ## Scenario1
+07-12-2019 08:00:19.408 [Gauge] [DEBUG] * Open the browser
+07-12-2019 08:00:20.266 [Gauge] [DEBUG] Checking updates...
+07-12-2019 08:00:20.267 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 08:00:20.414 [Gauge] [DEBUG] * Navigate to URL
+
+07-12-2019 08:00:21.919 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 08:00:22.295 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 08:00:22.785 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 08:00:23.696 [Gauge] [DEBUG] * Register to the website
+07-12-2019 08:00:28.376 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+07-12-2019 08:00:28.376 [Gauge] [DEBUG] * Enter firstname "Ravi"
+07-12-2019 08:00:30.696 [Gauge] [DEBUG] * Enter lastname "Ravi"
+07-12-2019 08:00:33.022 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+07-12-2019 08:00:35.420 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+07-12-2019 08:00:37.887 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+07-12-2019 08:00:49.618 [Gauge] [DEBUG] * SignUp with <userName> <Password>
+
+07-12-2019 08:00:49.618 [Gauge] [DEBUG] * Enter Username "Ravi"
+07-12-2019 08:00:51.925 [Gauge] [DEBUG] * Enter Password "Ravi"
+07-12-2019 08:01:02.309 [Gauge] [ERROR] Failed Step: Enter Password <Password>
+07-12-2019 08:01:02.309 [Gauge] [ERROR] Error Message: Error: Custom selector $(//input[@name='passwordd']) not found
+07-12-2019 08:01:02.310 [Gauge] [ERROR] Specification: specs/demotours.spec
+07-12-2019 08:01:02.310 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//input[@name='passwordd']) not found
+07-12-2019 08:01:02.310 [Gauge] [DEBUG] * Close the browser
+
+07-12-2019 08:01:02.483 [Gauge] [DEBUG] 
+   |id|userName|Password|
+   |--|--------|--------|
+   |2 |Sathya  |Sathya  |
+07-12-2019 08:01:02.483 [Gauge] [INFO] ## Scenario1
+07-12-2019 08:01:02.484 [Gauge] [DEBUG] * Open the browser
+07-12-2019 08:01:03.298 [Gauge] [DEBUG] * Navigate to URL
+
+07-12-2019 08:01:06.196 [Gauge] [DEBUG] * Register to the website
+07-12-2019 08:01:11.211 [Gauge] [DEBUG] * Enter Contact information <userName> <userName> "123456789" "abc@gamil.com"
+07-12-2019 08:01:11.211 [Gauge] [DEBUG] * Enter firstname "Sathya"
+07-12-2019 08:01:13.565 [Gauge] [DEBUG] * Enter lastname "Sathya"
+07-12-2019 08:01:15.917 [Gauge] [DEBUG] * Enter phoneNumber "123456789"
+07-12-2019 08:01:18.317 [Gauge] [DEBUG] * Enter mail "abc@gamil.com"
+07-12-2019 08:01:20.798 [Gauge] [DEBUG] * Enter the address "Coimbatore"
+07-12-2019 08:01:32.555 [Gauge] [DEBUG] * SignUp with <userName> <Password>
+
+07-12-2019 08:01:32.555 [Gauge] [DEBUG] * Enter Username "Sathya"
+07-12-2019 08:01:34.895 [Gauge] [DEBUG] * Enter Password "Sathya"
+07-12-2019 08:01:45.165 [Gauge] [ERROR] Failed Step: Enter Password <Password>
+07-12-2019 08:01:45.165 [Gauge] [ERROR] Error Message: Error: Custom selector $(//input[@name='passwordd']) not found
+07-12-2019 08:01:45.165 [Gauge] [ERROR] Specification: specs/demotours.spec
+07-12-2019 08:01:45.165 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//input[@name='passwordd']) not found
+07-12-2019 08:01:45.165 [Gauge] [DEBUG] * Close the browser
+
+07-12-2019 08:01:45.448 [Gauge] [INFO] Closing connection [127.0.0.1:57037] cause: read tcp 127.0.0.1:57034->127.0.0.1:57037: read: connection reset by peer
+07-12-2019 08:01:45.509 [Gauge] [DEBUG] Plugin [Html Report] with pid [53103] has exited
+07-12-2019 08:01:45.614 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+07-12-2019 08:01:45.614 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+07-12-2019 08:01:45.614 [Gauge] [INFO] 
+Total time taken: 1m26.096s
+07-12-2019 08:01:45.615 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+07-12-2019 08:05:15.273 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 08:05:15.274 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 08:05:15.841 [Gauge] [INFO] # Search Movie
+07-12-2019 08:05:15.846 [Gauge] [DEBUG] 
+   |id|City   |MovieName|Date|Theatre                |Time    |
+   |--|-------|---------|----|-----------------------|--------|
+   |1 |Chennai|Jada     |08  |AGS Cinemas OMR: Navlur|07:30 PM|
+07-12-2019 08:05:15.846 [Gauge] [INFO] ## Scenario1
+07-12-2019 08:05:15.849 [Gauge] [DEBUG] * Open the browser
+07-12-2019 08:05:16.819 [Gauge] [DEBUG] * Navigate to "https://in.bookmyshow.com"
+
+07-12-2019 08:05:16.875 [Gauge] [DEBUG] Checking updates...
+07-12-2019 08:05:16.875 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 08:05:18.193 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 08:05:18.500 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 08:05:18.899 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 08:05:22.535 [Gauge] [DEBUG] * Enter the city name "Chennai"
+07-12-2019 08:05:30.572 [Gauge] [DEBUG] * Book a ticket for <MovieName> <Date> <Theatre> <Time>
+
+07-12-2019 08:05:30.572 [Gauge] [DEBUG] * Search for the movie "Jada"
+07-12-2019 08:05:36.147 [Gauge] [DEBUG] * Select the date "08"
+07-12-2019 08:05:41.970 [Gauge] [DEBUG] * Select the theatre "AGS Cinemas OMR: Navlur" and the time of the show "07:30 PM"
+07-12-2019 08:05:45.362 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+07-12-2019 08:05:53.807 [Gauge] [DEBUG] * Close the browser
+
+07-12-2019 08:05:54.129 [Gauge] [DEBUG] 
+   |id|City      |MovieName             |Date|Theatre               |Time    |
+   |--|----------|----------------------|----|----------------------|--------|
+   |2 |Coimbatore|Enai Noki Paayum Thota|08  |KG Cinemas: Coimbatore|01:00 PM|
+07-12-2019 08:05:54.129 [Gauge] [INFO] ## Scenario1
+07-12-2019 08:05:54.129 [Gauge] [DEBUG] * Open the browser
+07-12-2019 08:05:55.243 [Gauge] [DEBUG] * Navigate to "https://in.bookmyshow.com"
+
+07-12-2019 08:05:57.770 [Gauge] [DEBUG] * Enter the city name "Coimbatore"
+07-12-2019 08:06:03.999 [Gauge] [DEBUG] * Book a ticket for <MovieName> <Date> <Theatre> <Time>
+
+07-12-2019 08:06:03.999 [Gauge] [DEBUG] * Search for the movie "Enai Noki Paayum Thota"
+07-12-2019 08:06:10.464 [Gauge] [DEBUG] * Select the date "08"
+07-12-2019 08:06:14.569 [Gauge] [DEBUG] * Select the theatre "KG Cinemas: Coimbatore" and the time of the show "01:00 PM"
+07-12-2019 08:06:17.660 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+07-12-2019 08:06:22.244 [Gauge] [DEBUG] * Close the browser
+
+07-12-2019 08:06:22.920 [Gauge] [INFO] Closing connection [127.0.0.1:57106] cause: read tcp 127.0.0.1:57103->127.0.0.1:57106: read: connection reset by peer
+07-12-2019 08:06:22.960 [Gauge] [DEBUG] Plugin [Html Report] with pid [53368] has exited
+07-12-2019 08:06:23.063 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-12-2019 08:06:23.063 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+07-12-2019 08:06:23.064 [Gauge] [INFO] 
+Total time taken: 1m6.876s
+07-12-2019 08:06:23.064 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+07-12-2019 09:06:02.744 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 09:06:02.757 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 09:06:03.229 [Gauge] [INFO] No specifications found in specs.
+07-12-2019 09:11:30.040 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 09:11:30.041 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 09:11:30.644 [Gauge] [INFO] # Search Movie
+07-12-2019 09:11:30.649 [Gauge] [INFO] ## Scenario1
+07-12-2019 09:11:30.652 [Gauge] [DEBUG] * Enter the city name "Chennai"
+07-12-2019 09:11:31.021 [Gauge] [ERROR] Failed Step: Enter the city name "Chennai"
+07-12-2019 09:11:31.021 [Gauge] [ERROR] Error Message: Error: Browser or page not initialized. Call `openBrowser()` before using this API
+07-12-2019 09:11:31.021 [Gauge] [ERROR] Specification: specs/bms.spec:4
+07-12-2019 09:11:31.021 [Gauge] [ERROR] Stacktrace: 
+Error: Browser or page not initialized. Call `openBrowser()` before using this API
+    at validate (/Users/in-cbe-sathya/node_modules/taiko/lib/taiko.js:3442:11)
+    at click (/Users/in-cbe-sathya/node_modules/taiko/lib/taiko.js:1043:3)
+    at module.exports.(anonymous function) (/Users/in-cbe-sathya/node_modules/taiko/lib/taiko.js:3542:36)
+    at Object.step (tests/step_implementation.js:27:11)
+07-12-2019 09:11:31.076 [Gauge] [INFO] Closing connection [127.0.0.1:57404] cause: EOF
+07-12-2019 09:11:31.154 [Gauge] [DEBUG] Plugin [Html Report] with pid [53823] has exited
+07-12-2019 09:11:31.259 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+07-12-2019 09:11:31.260 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+07-12-2019 09:11:31.260 [Gauge] [INFO] 
+Total time taken: 533ms
+07-12-2019 09:11:57.457 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 09:11:57.457 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 09:11:58.635 [Gauge] [DEBUG] Checking updates...
+07-12-2019 09:11:58.636 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 09:11:59.847 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 09:12:00.147 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 09:12:00.548 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 09:12:06.271 [Gauge] [INFO] # Search Movie
+07-12-2019 09:12:06.278 [Gauge] [INFO] ## Scenario1
+07-12-2019 09:12:06.281 [Gauge] [DEBUG] * Enter the city name "Chennai"
+07-12-2019 09:12:13.841 [Gauge] [DEBUG] * Search for the movie "Jada"
+07-12-2019 09:12:20.067 [Gauge] [DEBUG] * Select the date "08"
+07-12-2019 09:12:27.164 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+07-12-2019 09:12:31.581 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+07-12-2019 09:12:36.457 [Gauge] [INFO] Closing connection [127.0.0.1:57415] cause: EOF
+07-12-2019 09:12:36.502 [Gauge] [DEBUG] Plugin [Html Report] with pid [53896] has exited
+07-12-2019 09:12:36.607 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-12-2019 09:12:36.607 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07-12-2019 09:12:36.607 [Gauge] [INFO] 
+Total time taken: 38.478s
+07-12-2019 09:12:36.607 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+07-12-2019 13:54:20.392 [Gauge] [DEBUG] Plugin js is already installed.
+07-12-2019 13:54:20.393 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-12-2019 13:54:21.570 [Gauge] [DEBUG] Checking updates...
+07-12-2019 13:54:21.572 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 13:54:22.829 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 13:54:23.460 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 13:54:23.882 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=darwin&a=amd64
+07-12-2019 13:54:26.875 [Gauge] [INFO] # Search Movie
+07-12-2019 13:54:26.888 [Gauge] [INFO] ## Scenario1
+07-12-2019 13:54:26.904 [Gauge] [DEBUG] * Enter the city name "Chennai"
+07-12-2019 13:54:34.486 [Gauge] [DEBUG] * Search for the movie "Jada"
+07-12-2019 13:54:46.375 [Gauge] [DEBUG] * Select the date "08"
+07-12-2019 13:54:50.716 [Gauge] [DEBUG] * Select the theatre "MAYAJAAL Multiplex: ECR, Chennai" and the time of the show "10:30 PM"
+07-12-2019 13:54:55.345 [Gauge] [DEBUG] * Select the number of seats to be booked "3"
+
+07-12-2019 13:55:05.654 [Gauge] [ERROR] Failed Step: Select the number of seats to be booked "3"
+07-12-2019 13:55:05.654 [Gauge] [ERROR] Error Message: Error: Custom selector $(//ul[@id='popQty']//li[text()=3]) not found
+07-12-2019 13:55:05.654 [Gauge] [ERROR] Specification: specs/bms.spec:8
+07-12-2019 13:55:05.654 [Gauge] [ERROR] Stacktrace: 
+Error: Custom selector $(//ul[@id='popQty']//li[text()=3]) not found
+07-12-2019 13:55:08.133 [Gauge] [INFO] Closing connection [127.0.0.1:60447] cause: EOF
+07-12-2019 13:55:08.144 [Gauge] [DEBUG] Plugin [Html Report] with pid [56727] has exited
+07-12-2019 13:55:08.247 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+07-12-2019 13:55:08.247 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+07-12-2019 13:55:08.247 [Gauge] [INFO] 
+Total time taken: 45.295s
+07-12-2019 13:55:08.248 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.

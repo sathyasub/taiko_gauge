@@ -1,8 +1,5 @@
-
-
-/* globals gauge*/
 const {
-    browser, page, openBrowser, closeBrowser, goto, reload, $, link, listItem, waitFor,
+    browser, page, openBrowser, closeBrowser, goto, dropDown,reload, $, link, listItem, waitFor,
     inputField, fileField, textField, image, button, comboBox, checkBox, radioButton, alert,
     prompt, confirm, beforeunload, text, click, doubleClick, rightClick, write, press, deleteCookies,
     attach, highlight, focus, scrollTo, scrollRight, scrollLeft, scrollUp, scrollDown, below,
@@ -21,40 +18,47 @@ step("Open the browser", async () => {
 });
 
 step("Navigate to URL", async () => {
-    await goto("https://in.bookmyshow.com");
+    // await goto("https://in.bookmyshow.com");
+    await goto("http://newtours.demoaut.com/");
 })
 step("Enter the city name <city>", async (city) => {
     //await click($("//input[@id='inp_RegionSearch_top']"));
+    gauge.screenshot();
     await click("View All Cities")
+    gauge.screenshot();
     assert.ok(await text("Coimbatore").exists(), "Coimbatore city is not present the page");
+    gauge.screenshot();
     await click(city);
     //   await press("Enter");
 });
+
 step("Search for the movie <movie>", async (movie) => {
     await click($("//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']"));
+    gauge.screenshot();
     await write(movie);
     await press("Enter");
 });
 
 step("Select the date <date>", async (date) => {
+    gauge.screenshot();
     await click(date,{ navigationTimeout: 10000 });
 });
 
 step("Select the theatre <theatre> and the time of the show <time>", async (theatre, time) => {
     var movieTime = "//a[@data-showtime-code=" + time + "]"
-    // let expectedOptions = {
-    //     navigationTimeout: 40000,
-    //     waitForNavigation: true,
-    //     waitForEvents: ['movieTime'],
-    //   }
-
+    await deleteCookies();
+    // sleep.sleep(100);
+    gauge.screenshot();
     await click(time, toRightOf(theatre));
+    gauge.screenshot();
     await click("Accept");
+    gauge.screenshot();
 });
 
 step("Select the number of seats to be booked <seats>", async (seats) => {
     var xpath = "//ul[@id='popQty']//li[text()=" + seats + "]";
     await click($(xpath));
+    gauge.screenshot();
     await click("Select Seats");
     await click($("//a[@id='dismiss']"));
 });
@@ -70,6 +74,7 @@ step("Close the browser", async () => {
 })
 
 afterSuite(async () => {
+    await deleteCookies();
     await closeBrowser();
 });
 
@@ -83,29 +88,3 @@ step("Select language <lang>", async (lang) => {
     await click(lang);
 });
 
-step("Geolocation",async()=>{
-    
-    // await setLocation({ latitude: 27.1752868, longitude: 70.040009, accuracy:20 });
-    // await overridePermissions('http://maps.google.com',['geolocation']);
-    
-    // await goto('http://maps.google.com');
-    // await waitFor(1000);
-   
-        try {
-            await openBrowser({headless:false});
-            // await overridePermissions('https://the-internet.herokuapp.com/geolocation',['geolocation']);
-            await overridePermissions('www.google.co.in/maps/',['geolocation']);
-    
-            await setLocation({longitude: 70.040009, latitude: 27.1752868, accuracy:20});
-            await goto('www.google.co.in/maps/');
-            // await goto('https://the-internet.herokuapp.com/geolocation');
-            // const geolocation = await evaluate(() => new Promise(resolve => navigator.geolocation.getCurrentPosition(position => {
-            //     resolve({latitude: position.coords.latitude, longitude: position.coords.longitude});
-            // })));
-            // console.log(geolocation.result);
-        } catch (e) {
-            console.error(e);
-        } finally {
-            // await closeBrowser();
-        }
-    });

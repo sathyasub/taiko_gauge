@@ -1,5 +1,5 @@
 [
 	"gauge",
 	"run",
-	"specs/specFile.spec"
+	"specs/bms.spec"
 ]

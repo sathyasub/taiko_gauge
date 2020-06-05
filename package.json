@@ -6,6 +6,7 @@
     "test": "gauge run specs/"
   },
   "dependencies": {
+    "sleep": "^6.1.0",
     "taiko": "latest"
   }
 }

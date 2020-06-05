@@ -3,6 +3,6 @@
 		"run"
 	],
 	"FailedItems": [
-		"specs/specFile.spec"
+		"specs/bms.spec:3"
 	]
 }

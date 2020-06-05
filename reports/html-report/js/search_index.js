@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"Search Movie":["specs/specFile.html"]}};
+var index = {"Tags":{},"Specs":{"Search Movie":["specs/bms.html"]}};
